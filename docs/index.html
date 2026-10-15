@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>三国志その後 — 諸葛亮死後から司馬炎崩御まで</title>
+  <title>三国志その後 — 第1話「巨星落つ」</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,425 +12,500 @@
   <style>
     body {
       font-family: 'Shippori Mincho', 'Noto Serif JP', serif;
-      background-color: #0c0d10;
+      background-color: #090a0f;
       color: #e4e4e7;
     }
     .font-calligraphy {
       font-family: 'Yuji Boku', serif;
     }
     .manga-panel {
-      border: 3px solid #27272a;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
-      transition: all 0.2s ease-in-out;
+      border: 2px solid #27272a;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+      position: relative;
     }
-    .manga-panel:hover {
-      border-color: #d97706;
-      box-shadow: 0 6px 25px rgba(217, 119, 6, 0.15);
+    .manga-panel-large {
+      border: 3px solid #b45309;
+      box-shadow: 0 0 25px rgba(180, 83, 9, 0.2);
+    }
+    .sfx {
+      font-family: 'Yuji Boku', serif;
+      letter-spacing: 0.1em;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
     }
     .speech-bubble-left {
       position: relative;
       background: #18181b;
-      border: 2px solid #52525b;
+      border: 2px solid #3f3f46;
       border-radius: 12px;
     }
     .speech-bubble-left:after {
       content: '';
       position: absolute;
-      left: -12px;
-      top: 18px;
-      border-width: 6px 12px 6px 0;
+      left: -10px;
+      top: 16px;
+      border-width: 6px 10px 6px 0;
       border-style: solid;
-      border-color: transparent #52525b transparent transparent;
+      border-color: transparent #3f3f46 transparent transparent;
     }
     .speech-bubble-right {
       position: relative;
       background: #1c1917;
-      border: 2px solid #78716c;
+      border: 2px solid #57534e;
       border-radius: 12px;
     }
     .speech-bubble-right:after {
       content: '';
       position: absolute;
-      right: -12px;
-      top: 18px;
-      border-width: 6px 0 6px 12px;
+      right: -10px;
+      top: 16px;
+      border-width: 6px 0 6px 10px;
       border-style: solid;
-      border-color: transparent transparent transparent #78716c;
+      border-color: transparent transparent transparent #57534e;
     }
     .narration-box {
-      background: rgba(0, 0, 0, 0.85);
-      border-left: 4px solid #b45309;
+      background: rgba(10, 10, 15, 0.9);
+      border-left: 4px solid #d97706;
     }
     .bg-sangoku {
-      background: radial-gradient(circle at 50% 20%, #1f1510 0%, #0c0d10 80%);
+      background: radial-gradient(circle at 50% 15%, #18120c 0%, #090a0f 75%);
     }
   </style>
 </head>
 <body class="bg-sangoku min-h-screen text-gray-200">
 
-  <!-- ヘッダー / ナビゲーション -->
+  <!-- ヘッダー -->
   <header class="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-amber-900/40 px-4 py-3 shadow-2xl">
-    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
+    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
       <div class="flex items-center space-x-3">
         <span class="text-amber-500 text-2xl font-calligraphy">【三国志その後】</span>
-        <span class="text-xs text-amber-200/60 uppercase tracking-widest hidden sm:inline">234年 五丈原 〜 290年 司馬炎崩御</span>
+        <span class="text-xs text-amber-200/60 uppercase tracking-widest hidden md:inline">諸葛亮死後から司馬炎崩御まで</span>
       </div>
-      <nav class="flex flex-wrap gap-2 text-sm">
-        <button onclick="switchTab('ep01')" id="tab-ep01" class="tab-btn px-4 py-1.5 rounded bg-amber-700 text-white font-bold transition">第1話ネーム</button>
-        <button onclick="switchTab('ninomiya')" id="tab-ninomiya" class="tab-btn px-4 py-1.5 rounded bg-zinc-800 text-gray-300 hover:text-white transition">特集：二宮事件</button>
+      <nav class="flex gap-2 text-sm">
+        <button onclick="switchTab('ep01')" id="tab-ep01" class="tab-btn px-4 py-1.5 rounded bg-amber-700 text-white font-bold transition">第1話「巨星落つ」</button>
         <button onclick="switchTab('characters')" id="tab-characters" class="tab-btn px-4 py-1.5 rounded bg-zinc-800 text-gray-300 hover:text-white transition">人物名鑑</button>
-        <button onclick="switchTab('roadmap')" id="tab-roadmap" class="tab-btn px-4 py-1.5 rounded bg-zinc-800 text-gray-300 hover:text-white transition">全編ロードマップ</button>
+        <button onclick="switchTab('roadmap')" id="tab-roadmap" class="tab-btn px-4 py-1.5 rounded bg-zinc-800 text-gray-300 hover:text-white transition">全体構成案</button>
       </nav>
     </div>
   </header>
 
-  <!-- メインコンテンツ領域 -->
+  <!-- メインコンテンツ -->
   <main class="max-w-4xl mx-auto px-4 py-8">
 
-    <!-- TAB 1: 第1話 -->
+    <!-- ========================================== -->
+    <!-- TAB 1: 第1話「巨星落つ」完全版マンガビュー -->
+    <!-- ========================================== -->
     <section id="content-ep01" class="tab-content block">
-      <div class="text-center mb-10 pb-6 border-b border-zinc-800">
-        <span class="text-amber-500 font-bold tracking-widest text-sm uppercase">Episode 1 / ネーム・ストーリーボード</span>
-        <h1 class="text-3xl md:text-5xl font-black mt-2 font-calligraphy text-amber-100">第1話「巨星落つ」</h1>
-        <p class="text-gray-400 mt-2 text-sm md:text-base">五丈原の秋風 ― 諸葛孔明の最期と、残された者たち</p>
-        <div class="mt-4 flex justify-center gap-4 text-xs text-gray-400">
-          <span><i class="fa-solid fa-clock mr-1 text-amber-600"></i> 西暦234年（蜀・建興12年）</span>
-          <span><i class="fa-solid fa-location-dot mr-1 text-amber-600"></i> 五丈原・蜀軍本陣</span>
-          <span><i class="fa-solid fa-file-lines mr-1 text-amber-600"></i> 想定48ページ</span>
+      
+      <!-- タイトルヘッダー -->
+      <div class="text-center mb-12 pb-8 border-b border-zinc-800">
+        <span class="text-amber-500 font-bold tracking-widest text-xs uppercase bg-amber-950/80 px-3 py-1 rounded border border-amber-800/50">Episode 1 / ネーム決定稿（48P）</span>
+        <h1 class="text-4xl md:text-6xl font-black mt-3 font-calligraphy text-amber-100 tracking-wider">第1話「巨星落つ」</h1>
+        <p class="text-gray-400 mt-2 text-sm md:text-base font-serif">五丈原の秋風 ― 諸葛孔明の最期と、残された者たち</p>
+        <div class="mt-4 flex flex-wrap justify-center gap-4 text-xs text-gray-400">
+          <span><i class="fa-solid fa-clock mr-1 text-amber-500"></i> 西暦234年（蜀・建興12年）秋</span>
+          <span><i class="fa-solid fa-location-dot mr-1 text-amber-500"></i> 五丈原・渭水流域</span>
+          <span><i class="fa-solid fa-book-open mr-1 text-amber-500"></i> 全48ページ構成</span>
         </div>
       </div>
 
-      <div class="space-y-8">
-        <!-- コマ1 -->
-        <div class="manga-panel bg-zinc-900 rounded-lg p-5">
-          <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
-            <span>PAGE 1-2 【巻頭カラー見開き】</span>
-            <span class="bg-amber-950 px-2 py-0.5 rounded text-amber-300">情景描写</span>
+      <div class="space-y-12">
+
+        <!-- シーン1: 五丈原の秋風 -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-8 h-8 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold text-sm">壱</span>
+            <h2 class="text-xl font-bold text-amber-300 font-serif">シーン1：五丈原の秋風（P.1〜P.4）</h2>
           </div>
-          <div class="narration-box p-4 rounded text-sm leading-relaxed text-gray-300 mb-4">
-            <p class="italic font-serif">
-              建興十二年、八月――。<br>
-              吹き抜ける五丈原の冷たい秋風に、無数の漢軍の旗が激しく軋む。<br>
-              対峙する魏軍の大軍勢を前に、男の命の炎は、いま静かに消えようとしていた。
+
+          <!-- P.1 見開き -->
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5 mb-4">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 1-2 【巻頭カラー見開き】</span>
+              <span class="bg-amber-950 text-amber-300 px-2 py-0.5 rounded text-xs">大ゴマ</span>
+            </div>
+            <div class="text-center my-4">
+              <span class="sfx text-amber-600 text-3xl font-black block">【ヒュオォォォォ……】</span>
+              <span class="text-xs text-zinc-500">（吹きすさぶ冷たい秋風の音）</span>
+            </div>
+            <div class="narration-box p-4 rounded text-sm leading-relaxed text-gray-300 my-4 font-serif">
+              建興十二年、秋――。<br>
+              蜀漢の丞相・諸葛亮孔明による五度目の北伐。<br>
+              長安を目前に望む五丈原の乾いた台地に、張り詰めた静寂が漂っていた。
+            </div>
+            <p class="text-xs text-zinc-400 bg-black/60 p-3 rounded leading-relaxed border-l-2 border-zinc-600">
+              <strong>【作画指示】</strong> 見開き全体に広がる荒涼とした五丈原。渭水を挟み、蜀の黄色い「漢」の軍旗と、魏の黒い軍旗が無数にはためく。空は重い鉛色。右下隅に蜀軍本陣の幕舎。
             </p>
           </div>
-          <p class="text-xs text-gray-400 leading-normal bg-black/40 p-3 rounded">
-            <strong>【作画指示】</strong> 見開き全体に広がる荒涼とした五丈原の台地。蜀と魏の陣営が渭水を挟んで対峙。空は鉛色に曇り、乾いた草が舞う。画面右端に、小さく本陣の天幕。
-          </p>
+
+          <!-- P.3-4 幕舎・吐血 -->
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 3-4 【病床の執念】</span>
+              <span class="bg-zinc-800 text-gray-300 px-2 py-0.5 rounded text-xs">連続コマ</span>
+            </div>
+            <div class="text-xs text-zinc-400 mb-2">【コマ1〜3】山積みされた木簡と布帛。震える手で筆を走らせる諸葛孔明。頬はこけ、顔色は土気色。</div>
+            
+            <div class="speech-bubble-left p-4 my-3">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="w-6 h-6 rounded-full bg-amber-800 text-amber-100 flex items-center justify-center text-xs font-bold">亮</span>
+                <span class="text-xs font-bold text-amber-400">諸葛孔明（かすれ声）</span>
+              </div>
+              <p class="text-sm text-gray-200">
+                「……二十棒以上の罰は、すべて私自ら裁断せねばならぬ……軍規の乱れは、即ち国の乱れぞ……」
+              </p>
+            </div>
+
+            <div class="text-center my-4 py-2 bg-red-950/40 rounded border border-red-900/60">
+              <span class="sfx text-red-500 text-2xl font-black">【ゴホッ！ ゲホッ！！】</span>
+              <p class="text-xs text-red-300 mt-1">白い袖口に鮮血が飛び散り、羽扇が手から床へ転がり落ちる。【カラン……】</p>
+            </div>
+
+            <div class="speech-bubble-right p-4 my-3">
+              <div class="flex items-center justify-end gap-2 mb-1">
+                <span class="text-xs font-bold text-sky-400">姜維（幕を跳ね上げて駆け込む）</span>
+                <span class="w-6 h-6 rounded-full bg-sky-900 text-sky-100 flex items-center justify-center text-xs font-bold">維</span>
+              </div>
+              <p class="text-sm text-gray-200 text-right font-bold text-sky-200">
+                「丞相―――――ッ！！」
+              </p>
+            </div>
+          </div>
         </div>
 
-        <!-- コマ2 -->
-        <div class="manga-panel bg-zinc-900 rounded-lg p-5">
-          <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
-            <span>PAGE 5-8 【兵法の伝授】</span>
-            <span class="bg-blue-950 px-2 py-0.5 rounded text-blue-300">対話</span>
+        <!-- シーン2: 兵法二十四編の授与 -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-8 h-8 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold text-sm">弐</span>
+            <h2 class="text-xl font-bold text-amber-300 font-serif">シーン2：兵法二十四編の授与（P.5〜P.12）</h2>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
-            <div class="speech-bubble-left p-4">
-              <div class="flex items-center gap-2 mb-2">
-                <span class="w-7 h-7 rounded-full bg-amber-800 flex items-center justify-center text-xs font-bold text-amber-100">亮</span>
+
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 7-10 【遺志の継承】</span>
+              <span class="bg-blue-950 text-blue-300 px-2 py-0.5 rounded text-xs">名場面</span>
+            </div>
+
+            <div class="text-xs text-zinc-400 mb-2">【コマ1】孔明、机の奥の葛籠から真新しい書巻を差し出す。表題『兵法二十四編』。</div>
+
+            <div class="speech-bubble-left p-4 my-3">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="w-6 h-6 rounded-full bg-amber-800 text-amber-100 flex items-center justify-center text-xs font-bold">亮</span>
                 <span class="text-xs font-bold text-amber-400">諸葛孔明</span>
               </div>
-              <p class="text-sm leading-relaxed text-gray-200">
-                「姜維よ……近う寄れ。<br>
-                我が一生の心血を注いだ『兵法二十四編』だ。そなたにこれを託す……」
+              <p class="text-sm text-gray-200 leading-relaxed">
+                「我が一生の心血を注いだ兵法のすべてをこの書に記した。<br>
+                蜀の群臣の中で、これを受け継ぎ、真に生かせる男は――伯約、そなた一人だ」
               </p>
             </div>
-            <div class="speech-bubble-right p-4">
-              <div class="flex items-center justify-end gap-2 mb-2">
-                <span class="text-xs font-bold text-sky-400">姜維伯約</span>
-                <span class="w-7 h-7 rounded-full bg-sky-900 flex items-center justify-center text-xs font-bold text-sky-100">維</span>
+
+            <div class="speech-bubble-right p-4 my-3">
+              <div class="flex items-center justify-end gap-2 mb-1">
+                <span class="text-xs font-bold text-sky-400">姜維（涙を流し平伏する）</span>
+                <span class="w-6 h-6 rounded-full bg-sky-900 text-sky-100 flex items-center justify-center text-xs font-bold">維</span>
               </div>
-              <p class="text-sm leading-relaxed text-gray-200 text-right">
-                「め、滅相もございません丞相！<br>
-                丞相の御病気が癒えるまで、私が陣頭で軍を統制いたしますゆえ、どうか休養を……！」
+              <p class="text-sm text-gray-200 text-right">
+                「わ、私ごとき降将に、これほどの重責を……！ 必ずや漢室を復興してみせまする！」
+              </p>
+            </div>
+
+            <div class="p-5 my-4 bg-amber-950/40 rounded-lg border-2 border-amber-600/60">
+              <div class="text-xs text-amber-400 font-bold mb-2">【大ゴマ：孔明の眼光が姜維を射抜く】</div>
+              <p class="text-base md:text-lg font-bold text-amber-100 leading-relaxed font-serif">
+                「よいか伯約。心に深く刻め。<br>
+                <span class="text-red-400">『兵は凶器なり。戦は不吉の業なり』</span><br>
+                勝ちを焦るあまり、民を泣かせ、国を傾けることだけは決してしてはならぬ……！」
+              </p>
+            </div>
+
+            <p class="text-xs text-zinc-400 bg-black/60 p-3 rounded border-l-2 border-zinc-600">
+              <strong>【演出意図】</strong> 師のこの切実な戒めが、後に北伐に憑りつかれ蜀を破滅へと導いてしまう姜維の運命を暗示する重い楔となる。
+            </p>
+          </div>
+        </div>
+
+        <!-- シーン3: 後継の密命と魏延の火種 -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-8 h-8 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold text-sm">参</span>
+            <h2 class="text-xl font-bold text-amber-300 font-serif">シーン3：後継の密命と魏延の火種（P.13〜P.20）</h2>
+          </div>
+
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5 mb-4">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 13-14 【李福の問答】</span>
+              <span class="bg-zinc-800 text-gray-300 px-2 py-0.5 rounded text-xs">対話</span>
+            </div>
+            <div class="narration-box p-3 rounded text-xs text-gray-300 mb-3">
+              成都からの特使・李福が枕元に駆け寄り、劉禅帝の問いを伝える。「公の百年の後は、誰に政務を託すべきか」
+            </div>
+            <p class="text-sm text-gray-200 pl-4 border-l-2 border-amber-600 my-2">
+              孔明「……蒋琬（公琰）だ」<br>
+              李福「蒋公琰の後は？」<br>
+              孔明「費禕（文偉）が継ぐがよい」<br>
+              李福「……さらにその次は？」<br>
+              孔明「…………その先は、知る由もない」
+            </p>
+          </div>
+
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 18-20 【魏延の刃】</span>
+              <span class="bg-red-950 text-red-300 px-2 py-0.5 rounded text-xs">不穏の影</span>
+            </div>
+            <div class="text-xs text-zinc-400 mb-2">【コマ1】前線陣営。月光の下、巨大な大刀を研ぎ澄ます猛将・魏延。</div>
+            <div class="text-center my-3">
+              <span class="sfx text-zinc-400 text-lg">【シャッ……シャッ……】（大刀を研ぐ鈍い金属音）</span>
+            </div>
+            <div class="speech-bubble-left p-4 my-2 border-red-900/80 bg-red-950/20">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="w-6 h-6 rounded-full bg-red-900 text-red-100 flex items-center justify-center text-xs font-bold">延</span>
+                <span class="text-xs font-bold text-red-400">魏延（瞳にギラつく野心）</span>
+              </div>
+              <p class="text-sm text-red-200 leading-relaxed font-serif">
+                「丞相一人が身罷られたとて、天下の大業を捨て去る道理があるか！<br>
+                楊儀ごとき文官どもの指図など受けて退却してたまるか。<br>
+                俺が残る全軍を率い、司馬懿の首を獲って長安へ駆け抜けてくれるわ！」
               </p>
             </div>
           </div>
-          <div class="speech-bubble-left p-4 my-2">
-            <div class="flex items-center gap-2 mb-2">
-              <span class="w-7 h-7 rounded-full bg-amber-800 flex items-center justify-center text-xs font-bold text-amber-100">亮</span>
-              <span class="text-xs font-bold text-amber-400">諸葛孔明（力強く見据えて）</span>
+        </div>
+
+        <!-- シーン4: 巨星墜つ -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-8 h-8 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold text-sm">四</span>
+            <h2 class="text-xl font-bold text-amber-300 font-serif">シーン4：巨星墜つ（P.21〜P.28）</h2>
+          </div>
+
+          <div class="manga-panel-large bg-zinc-900 rounded-lg p-6">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-4 border-b border-zinc-800 pb-2">
+              <span>PAGE 23-26 【クライマックス：巨星落つ】</span>
+              <span class="bg-red-950 text-red-300 px-2 py-0.5 rounded text-xs">見開き特大コマ</span>
             </div>
-            <p class="text-sm leading-relaxed text-amber-100 font-semibold">
-              「よいか伯約。兵は凶器、戦は不吉の業ぞ。<br>
-              勝ちを焦るあまり、民を泣かせ、国を傾けることだけは決してしてはならぬ……」
-            </p>
+
+            <div class="text-center py-4">
+              <p class="text-xs text-zinc-400 mb-2">薄れゆく視界の向こうに、劉備、関羽、張飛の幻影が微笑みかける。</p>
+              <p class="text-2xl md:text-4xl font-calligraphy text-amber-200 tracking-widest my-3">
+                「先帝……いま、おそばへ参ります――」
+              </p>
+              <p class="text-xs text-zinc-400 mt-2">孔明の手が静かに脱力し、羽扇が床に滑り落ちる。</p>
+            </div>
+
+            <div class="my-6 p-6 bg-gradient-to-b from-red-950/60 to-black rounded-lg border border-red-700/50 text-center">
+              <span class="sfx text-red-500 text-3xl md:text-5xl font-black block">【ズズズズズ……ゴオォォォッ！！】</span>
+              <p class="text-sm md:text-base text-gray-200 mt-3 font-serif">
+                深夜の天空。五丈原の頭上を、赤く巨大な流星が尾を引いて切り裂く。<br>
+                北の地平の彼方へと吸い込まれるように墜ちていった。
+              </p>
+              <div class="mt-4 pt-4 border-t border-zinc-800 text-xs text-zinc-400">
+                建興十二年八月二十三日、諸葛孔明 陣没。享年五十四。
+              </div>
+            </div>
+
+            <div class="text-center py-2">
+              <span class="sfx text-zinc-300 text-xl font-black">【丞相―――ッ！！】</span>
+              <p class="text-xs text-zinc-400 mt-1">将兵たちの慟哭が夜の五丈原にこだまする。</p>
+            </div>
           </div>
         </div>
 
-        <!-- コマ3 -->
-        <div class="manga-panel bg-zinc-900 rounded-lg p-5">
-          <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
-            <span>PAGE 9-18 【密命と暗雲】</span>
-            <span class="bg-red-950 px-2 py-0.5 rounded text-red-300">政争の火種</span>
+        <!-- シーン5: 司馬懿の出撃と木像孔明 -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-8 h-8 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold text-sm">伍</span>
+            <h2 class="text-xl font-bold text-amber-300 font-serif">シーン5：司馬懿の出撃と木像孔明（P.29〜P.40）</h2>
           </div>
-          <div class="narration-box p-3 rounded text-sm text-gray-300 mb-3">
-            孔明は楊儀・費禕を呼び、自らの死後の秘密全軍撤退を命じる。「魏延に殿軍（しんがり）を命ぜよ。もし魏延が従わぬ時は、構わず軍を発せ」
-          </div>
-          <div class="p-4 bg-zinc-950 rounded border border-red-950 my-3">
-            <div class="flex items-center gap-2 mb-2">
-              <span class="w-7 h-7 rounded-full bg-red-900 flex items-center justify-center text-xs font-bold text-red-100">延</span>
-              <span class="text-xs font-bold text-red-400">魏延文長（夜の陣営にて）</span>
+
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5 mb-4">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 31-33 【もぬけの殻の蜀陣】</span>
+              <span class="bg-purple-950 text-purple-300 px-2 py-0.5 rounded text-xs">感嘆</span>
             </div>
-            <p class="text-sm text-red-200 italic font-serif">
-              「丞相一人が身罷られたとて、天下の大業を捨て去る道理があるか！<br>
-              楊儀ごとき文官の指図など受けるものか。俺が残る全軍を指揮し、司馬懿の首を獲る！」
-            </p>
+            <div class="speech-bubble-left p-4 my-2 border-purple-900/60 bg-purple-950/20">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="w-6 h-6 rounded-full bg-purple-900 text-purple-100 flex items-center justify-center text-xs font-bold">懿</span>
+                <span class="text-xs font-bold text-purple-400">司馬懿（整然とした陣跡を見回して）</span>
+              </div>
+              <p class="text-sm text-gray-200">
+                「濠の埋め戻し、柵の配置、足跡の消し方……何という乱れのない陣払いだ。<br>
+                これほどの撤退を成し遂げるとは……孔明、まこと天下の奇才よ！」
+              </p>
+            </div>
+          </div>
+
+          <div class="manga-panel-large bg-zinc-900 rounded-lg p-5">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 36-39 【死せる孔明、生ける仲達を走らす】</span>
+              <span class="bg-red-950 text-red-300 px-2 py-0.5 rounded text-xs">大逆転</span>
+            </div>
+            
+            <div class="narration-box p-3 rounded text-xs text-gray-300 mb-3">
+              狭谷で猛追する魏軍。突如鳴り響く陣太鼓！ 退却していた蜀軍が電光石火の勢いで反転する！
+            </div>
+            <div class="text-center my-3">
+              <span class="sfx text-amber-500 text-2xl font-black">【ド・ド・ド・ド・ド・ド・ドッ！！】</span>
+            </div>
+
+            <div class="p-5 my-4 bg-gradient-to-r from-zinc-950 via-zinc-900 to-zinc-950 rounded border border-amber-500/60 text-center">
+              <div class="text-xs text-amber-400 font-bold mb-1">【霧の向こう、四輪車上に座す諸葛孔明】</div>
+              <p class="text-sm text-gray-300 font-serif italic">羽扇を手に、涼やかな眼差しで魏軍を見下ろす（木像）</p>
+            </div>
+
+            <div class="speech-bubble-right p-4 my-3 border-red-800 bg-red-950/40">
+              <div class="flex items-center justify-end gap-2 mb-1">
+                <span class="text-xs font-bold text-red-400">司馬懿（顔面蒼白、絶叫）</span>
+                <span class="w-6 h-6 rounded-full bg-purple-900 text-purple-100 flex items-center justify-center text-xs font-bold">懿</span>
+              </div>
+              <p class="text-base text-red-200 text-right font-black">
+                「こ、孔明――――ッ！？<br>
+                罠だ！ 計略だ！ 孔明は生きておったのだ！！<br>
+                退けぇぇぇッ！ 全軍、退却せよ！！」
+              </p>
+            </div>
+
+            <div class="narration-box p-3 rounded text-xs text-gray-300 mt-4">
+              兜を投げ捨て五十里を逃げ走った司馬懿は、後にそれが木像であったと知る。<br>
+              「死せる孔明、生ける仲達を走らす、か……。だが、これで天下はわしのものだ」
+            </div>
           </div>
         </div>
 
-        <!-- コマ4 -->
-        <div class="manga-panel bg-zinc-900 rounded-lg p-5 border-amber-600/50">
-          <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
-            <span>PAGE 19-24 【クライマックス：巨星落つ】</span>
-            <span class="bg-amber-950 px-2 py-0.5 rounded text-amber-300">最期</span>
+        <!-- シーン6: エピローグ -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-8 h-8 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold text-sm">六</span>
+            <h2 class="text-xl font-bold text-amber-300 font-serif">シーン6：エピローグ・乱世の深淵へ（P.41〜P.48）</h2>
           </div>
-          <div class="text-center py-6">
-            <p class="text-2xl md:text-3xl font-calligraphy text-red-400 tracking-widest my-2">「先帝……いま、おそばへ――」</p>
-            <p class="text-xs text-gray-400 mt-2">孔明の手から、静かに羽扇が滑り落ち、床に転がる。</p>
-          </div>
-          <div class="narration-box p-4 rounded text-sm text-gray-300">
-            夜空を裂いて、赤く燃え盛る巨大な星が五丈原の蜀陣へと落ちた。<br>
-            諸葛孔明、陣没。享年五十四。<br>
-            それは漢王朝の灯火が、永遠に失われた瞬間であった。
+
+          <div class="manga-panel bg-zinc-900/90 rounded-lg p-5">
+            <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
+              <span>PAGE 41-48 【棧道の炎と新時代】</span>
+              <span class="bg-zinc-800 text-gray-300 px-2 py-0.5 rounded text-xs">幕引き</span>
+            </div>
+
+            <div class="text-center my-3">
+              <span class="sfx text-orange-500 text-2xl font-black">【ボオォォォッ！！】</span>
+              <p class="text-xs text-orange-300">退路の桟道を焼き払う魏延軍の劫火</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3 my-4 text-xs">
+              <div class="bg-black/50 p-3 rounded border border-zinc-800">
+                <span class="text-amber-400 font-bold">蜀・成都</span>
+                <p class="text-gray-400 mt-1">所在なげに鳥と遊ぶ劉禅。その背後に忍び寄る宦官・黄皓の怪しい影。</p>
+              </div>
+              <div class="bg-black/50 p-3 rounded border border-zinc-800">
+                <span class="text-purple-400 font-bold">魏・洛陽</span>
+                <p class="text-gray-400 mt-1">幼帝・曹芳を挟み、冷徹に睨み合う司馬懿と大将軍・曹爽。高平陵の変の予兆。</p>
+              </div>
+              <div class="bg-black/50 p-3 rounded border border-zinc-800">
+                <span class="text-blue-400 font-bold">呉・建業</span>
+                <p class="text-gray-400 mt-1">老境に入り猜疑心を深める大帝・孫権。二宮事件の暗雲が立ち込める。</p>
+              </div>
+            </div>
+
+            <div class="narration-box p-4 rounded text-sm text-gray-300 leading-relaxed font-serif mt-4">
+              諸葛孔明の死。<br>
+              それは、志と義によって動いた「英雄たちの三国志」の幕引きであった。<br>
+              生き残った者たちを待ち受けるのは、より冷酷な裏切りと、血で血を洗う権力抗争。<br>
+              いま、真の三国志の扉が開く――。
+            </div>
+
+            <div class="text-center mt-6 pt-4 border-t border-zinc-800 text-xs text-amber-500 font-bold tracking-widest">
+              （第1話・完 ／ 第2話「棧道の炎と魏延の最期」へ続く）
+            </div>
           </div>
         </div>
 
-        <!-- コマ5 -->
-        <div class="manga-panel bg-zinc-900 rounded-lg p-5">
-          <div class="flex justify-between items-center text-xs text-amber-500 font-bold mb-3 border-b border-zinc-800 pb-2">
-            <span>PAGE 33-40 【死せる孔明、生ける仲達を走らす】</span>
-            <span class="bg-purple-950 px-2 py-0.5 rounded text-purple-300">名場面</span>
-          </div>
-          <div class="speech-bubble-right p-4 my-3">
-            <div class="flex items-center justify-end gap-2 mb-2">
-              <span class="text-xs font-bold text-purple-400">司馬懿仲達</span>
-              <span class="w-7 h-7 rounded-full bg-purple-900 flex items-center justify-center text-xs font-bold text-purple-100">懿</span>
-            </div>
-            <p class="text-sm leading-relaxed text-gray-200 text-right">
-              「退け！ 全軍、後退せよ！！<br>
-              あれを見よ！ 孔明は生きておる！ わしの策は見破られていたのだ！！」
-            </p>
-          </div>
-          <div class="narration-box p-3 rounded text-sm text-gray-300">
-            峡谷の霧の向こう、軍旗の下に車上に座す諸葛孔明（木像）。<br>
-            恐慌をきたして敗走する魏の大軍。<br>
-            後にそれが木像であったと知った司馬懿は、己の恐怖を苦笑とともに噛み締める。
-          </div>
-          <div class="speech-bubble-right p-4 my-3">
-            <div class="flex items-center justify-end gap-2 mb-2">
-              <span class="text-xs font-bold text-purple-400">司馬懿仲達</span>
-              <span class="w-7 h-7 rounded-full bg-purple-900 flex items-center justify-center text-xs font-bold text-purple-100">懿</span>
-            </div>
-            <p class="text-sm leading-relaxed text-gray-200 text-right">
-              「……わしは生ける者の心は測れるが、死者の魂までは量れぬよ。<br>
-              孔明、天晴れなり……。だが、これで天下はわしのものだ」
-            </p>
-          </div>
-        </div>
       </div>
     </section>
 
-    <!-- TAB 2: 二宮事件 -->
-    <section id="content-ninomiya" class="tab-content hidden">
-      <div class="text-center mb-8 pb-6 border-b border-zinc-800">
-        <span class="text-red-500 font-bold tracking-widest text-sm uppercase">Special Feature / 特集解説</span>
-        <h1 class="text-3xl md:text-5xl font-black mt-2 font-calligraphy text-red-200">特集：二宮事件</h1>
-        <p class="text-gray-400 mt-2 text-sm md:text-base">老いた英雄・孫権の狂気と、名将・陸遜憤死の深層</p>
-      </div>
 
-      <div class="bg-zinc-900 p-6 rounded-xl border border-zinc-700 shadow-xl mb-10">
-        <h2 class="text-xl font-bold text-amber-400 mb-4 flex items-center gap-2">
-          <i class="fa-solid fa-sitemap"></i> 二宮事件 対立相関図
-        </h2>
-        <div class="text-center mb-8">
-          <div class="inline-block bg-amber-950/80 border-2 border-amber-600 px-6 py-3 rounded-xl shadow-lg">
-            <div class="text-xs text-amber-400 font-bold">老境・猜疑の王</div>
-            <div class="text-xl font-bold text-white">孫権（大帝）</div>
-            <div class="text-xs text-gray-300 mt-1">賢太子・孫登没後、二人の皇子を並立させ対立を激化させる</div>
-          </div>
-          <div class="text-xs text-red-400 font-bold mt-2">▲ 全公主（孫魯班）が背後で讒言を吹き込み操作</div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div class="bg-blue-950/30 border-2 border-blue-700/60 p-4 rounded-xl">
-            <div class="text-center pb-3 border-b border-blue-800 mb-3">
-              <span class="bg-blue-900 text-blue-200 text-xs px-2.5 py-0.5 rounded font-bold">太子派（南宮）</span>
-              <h3 class="text-lg font-bold text-blue-300 mt-1">皇太子・孫和</h3>
-              <p class="text-xs text-gray-400">正統な長幼の順を守ろうとした清流派</p>
-            </div>
-            <ul class="space-y-3 text-sm">
-              <li class="bg-black/40 p-2.5 rounded border border-blue-900/50">
-                <div class="font-bold text-blue-200 flex justify-between">
-                  <span>陸遜（丞相・大都督）</span>
-                  <span class="text-xs text-red-400">度重なる叱責の末、憤死</span>
-                </div>
-                <div class="text-xs text-gray-400 mt-1">「嫡庶の別」を説き武昌から何度も諫言するが、孫権の怒りを買う。</div>
-              </li>
-              <li class="bg-black/40 p-2.5 rounded border border-blue-900/50">
-                <div class="font-bold text-blue-200 flex justify-between">
-                  <span>朱拠（驃騎将軍）</span>
-                  <span class="text-xs text-red-400">免職・偽勅で自害</span>
-                </div>
-                <div class="text-xs text-gray-400 mt-1">泥を塗って孫和を命がけで擁護するが左遷され謀殺される。</div>
-              </li>
-              <li class="bg-black/40 p-2.5 rounded border border-blue-900/50">
-                <div class="font-bold text-blue-200 flex justify-between">
-                  <span>吾粲・顧譚・顧承</span>
-                  <span class="text-xs text-red-400">獄死・流罪</span>
-                </div>
-                <div class="text-xs text-gray-400 mt-1">孫覇派の讒言により逮捕され、江南の名門層が壊滅的打撃。</div>
-              </li>
-            </ul>
-          </div>
-
-          <div class="bg-red-950/30 border-2 border-red-700/60 p-4 rounded-xl">
-            <div class="text-center pb-3 border-b border-red-800 mb-3">
-              <span class="bg-red-900 text-red-200 text-xs px-2.5 py-0.5 rounded font-bold">魯王派（魯宮）</span>
-              <h3 class="text-lg font-bold text-red-300 mt-1">魯王・孫覇</h3>
-              <p class="text-xs text-gray-400">父の寵愛を背景に太子位簒奪を狙った野心派</p>
-            </div>
-            <ul class="space-y-3 text-sm">
-              <li class="bg-black/40 p-2.5 rounded border border-red-900/50">
-                <div class="font-bold text-red-200 flex justify-between">
-                  <span>全公主（孫魯班）</span>
-                  <span class="text-xs text-yellow-400">暗黒期の黒幕</span>
-                </div>
-                <div class="text-xs text-gray-400 mt-1">孫権の長女。母の恨みから孫和を憎み、孫覇派を陰から指揮。</div>
-              </li>
-              <li class="bg-black/40 p-2.5 rounded border border-red-900/50">
-                <div class="font-bold text-red-200 flex justify-between">
-                  <span>全琮・歩騭</span>
-                  <span class="text-xs text-gray-400">呉の重臣層</span>
-                </div>
-                <div class="text-xs text-gray-400 mt-1">陸遜らと対立し、孫覇を後押しする。</div>
-              </li>
-              <li class="bg-black/40 p-2.5 rounded border border-red-900/50">
-                <div class="font-bold text-red-200 flex justify-between">
-                  <span>楊竺・全寄・孫弘</span>
-                  <span class="text-xs text-red-400">後に全員処刑</span>
-                </div>
-                <div class="text-xs text-gray-400 mt-1">怪文書や讒言を駆使して太子派を追い落とす謀臣たち。</div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="mt-8 p-4 bg-red-900/20 border-l-4 border-red-600 rounded">
-          <div class="text-sm font-bold text-red-400">【事件の衝撃的結末：250年・孫権の大粛清】</div>
-          <p class="text-xs text-gray-300 mt-1 leading-relaxed">
-            争いに疲れ果てた孫権は、<strong>「孫和を廃嫡して庶人に落とし、孫覇には自害を命じる」</strong>という両成敗の狂気的決断を下す。<br>
-            結果、わずか8歳の末子・孫亮が皇太子となり、名臣を失った呉は諸葛恪・孫峻・孫綝らの専横と暗殺の泥沼へ沈んでいく。
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- TAB 3: 人物名鑑 -->
+    <!-- ========================================== -->
+    <!-- TAB 2: 人物名鑑 -->
+    <!-- ========================================== -->
     <section id="content-characters" class="tab-content hidden">
       <div class="text-center mb-8 pb-6 border-b border-zinc-800">
-        <span class="text-amber-500 font-bold tracking-widest text-sm uppercase">Character Profiles</span>
-        <h1 class="text-3xl md:text-5xl font-black mt-2 font-calligraphy text-amber-200">主要人物名鑑</h1>
-        <p class="text-gray-400 mt-2 text-sm md:text-base">三国志の黄昏を駆け抜けた群雄・知将たち</p>
+        <span class="text-amber-500 font-bold tracking-widest text-xs uppercase bg-amber-950 px-3 py-1 rounded">Profiles</span>
+        <h1 class="text-3xl md:text-5xl font-black mt-3 font-calligraphy text-amber-100">第1話 登場人物名鑑</h1>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="bg-zinc-900 p-5 rounded-lg border border-zinc-800">
           <div class="flex items-center gap-3 mb-2">
-            <span class="w-10 h-10 rounded-full bg-sky-900 text-sky-200 flex items-center justify-center font-bold">姜</span>
+            <span class="w-10 h-10 rounded-full bg-amber-800 text-amber-100 flex items-center justify-center font-bold">亮</span>
             <div>
-              <h3 class="font-bold text-sky-400 text-base">姜維（伯約）<span class="text-xs text-gray-400 ml-2">蜀・大将軍</span></h3>
-              <div class="text-xs text-amber-500">「孔明の遺志を背負い続けた悲劇の後継者」</div>
+              <h3 class="font-bold text-amber-300 text-base">諸葛亮（孔明）</h3>
+              <div class="text-xs text-amber-500/80">蜀漢・丞相</div>
             </div>
           </div>
           <p class="text-xs text-gray-300 leading-relaxed">
-            孔明の死後、蜀漢の軍事権を握り北伐を継続。しかし連年の出兵は国力を疲弊させ国内の孤立を招く。蜀滅亡後も鍾会を抱き込んで起死回生の反乱を試みる。
+            建興12年（234年）、五丈原にて陣没。死の間際まで軍規を重んじ、姜維に兵法二十四編を託す。「兵は凶器なり」と遺戒を残した。
           </p>
         </div>
 
         <div class="bg-zinc-900 p-5 rounded-lg border border-zinc-800">
           <div class="flex items-center gap-3 mb-2">
-            <span class="w-10 h-10 rounded-full bg-blue-900 text-blue-200 flex items-center justify-center font-bold">陸</span>
+            <span class="w-10 h-10 rounded-full bg-sky-900 text-sky-200 flex items-center justify-center font-bold">維</span>
             <div>
-              <h3 class="font-bold text-blue-400 text-base">陸遜（伯言）<span class="text-xs text-gray-400 ml-2">呉・丞相大都督</span></h3>
-              <div class="text-xs text-amber-500">「主君の老害化に散った呉の至宝」</div>
+              <h3 class="font-bold text-sky-400 text-base">姜維（伯約）</h3>
+              <div class="text-xs text-sky-500/80">蜀漢・征西将軍</div>
             </div>
           </div>
           <p class="text-xs text-gray-300 leading-relaxed">
-            夷陵の英雄にして呉の屋台骨。二宮事件で正論の諫言を続けたため孫権から度重なる詰問と問責を受け、心労と悔しさのあまり武昌の地で憤死する。
+            孔明に才能を見出された愛弟子。師の死に慟哭しながらも、遺志を継いで北伐の完遂を固く誓う。
           </p>
         </div>
 
         <div class="bg-zinc-900 p-5 rounded-lg border border-zinc-800">
           <div class="flex items-center gap-3 mb-2">
-            <span class="w-10 h-10 rounded-full bg-purple-900 text-purple-200 flex items-center justify-center font-bold">司</span>
+            <span class="w-10 h-10 rounded-full bg-red-900 text-red-100 flex items-center justify-center font-bold">延</span>
             <div>
-              <h3 class="font-bold text-purple-400 text-base">司馬懿（仲達）<span class="text-xs text-gray-400 ml-2">魏・太傅</span></h3>
-              <div class="text-xs text-amber-500">「老獪にして冷酷、晋王朝の礎を築いた巨魁」</div>
+              <h3 class="font-bold text-red-400 text-base">魏延（文長）</h3>
+              <div class="text-xs text-red-500/80">蜀漢・前軍師征西大将軍</div>
             </div>
           </div>
           <p class="text-xs text-gray-300 leading-relaxed">
-            孔明の侵攻を防ぎ切った後、曹爽一派を「高平陵の変」で電撃的に一網打尽。魏の皇帝権力を実質的に奪い、司馬氏による専権体制を築き上げた。
+            蜀軍随一の歴戦の猛将。「孔明一人が死んだからと退却できるか」と命に背き、桟道を焼き払って内乱を引き起こす。
           </p>
         </div>
 
         <div class="bg-zinc-900 p-5 rounded-lg border border-zinc-800">
           <div class="flex items-center gap-3 mb-2">
-            <span class="w-10 h-10 rounded-full bg-amber-900 text-amber-200 flex items-center justify-center font-bold">炎</span>
+            <span class="w-10 h-10 rounded-full bg-purple-900 text-purple-200 flex items-center justify-center font-bold">懿</span>
             <div>
-              <h3 class="font-bold text-amber-400 text-base">司馬炎（安世）<span class="text-xs text-gray-400 ml-2">西晋・初代皇帝（武帝）</span></h3>
-              <div class="text-xs text-amber-500">「三国を統一し、そして乱の種を蒔いた覇王」</div>
+              <h3 class="font-bold text-purple-400 text-base">司馬懿（仲達）</h3>
+              <div class="text-xs text-purple-500/80">魏・太尉</div>
             </div>
           </div>
           <p class="text-xs text-gray-300 leading-relaxed">
-            魏を禅譲により廃して西晋を創始。西暦280年、呉を平定してついに天下統一を果たす。しかし晩年は後宮の美女1万人に溺れ、八王の乱の引き金を引く。
+            魏軍の総帥。流星を見て孔明の死を察知して出撃するも、木像孔明の計略に肝を冷やして敗走。最大の好敵手を失い、野心を露わにする。
           </p>
         </div>
       </div>
     </section>
 
-    <!-- TAB 4: ロードマップ -->
+
+    <!-- ========================================== -->
+    <!-- TAB 3: 全体構成案 -->
+    <!-- ========================================== -->
     <section id="content-roadmap" class="tab-content hidden">
       <div class="text-center mb-8 pb-6 border-b border-zinc-800">
-        <span class="text-amber-500 font-bold tracking-widest text-sm uppercase">Story Timeline</span>
-        <h1 class="text-3xl md:text-5xl font-black mt-2 font-calligraphy text-amber-200">全3部・年代記ロードマップ</h1>
-        <p class="text-gray-400 mt-2 text-sm md:text-base">全10巻・約2,000ページで描く三国志の結末</p>
+        <span class="text-amber-500 font-bold tracking-widest text-xs uppercase bg-amber-950 px-3 py-1 rounded">Roadmap</span>
+        <h1 class="text-3xl md:text-5xl font-black mt-3 font-calligraphy text-amber-100">全体構成案（全3部）</h1>
       </div>
 
-      <div class="relative border-l-2 border-amber-800/60 ml-4 md:ml-32 space-y-8">
-        <div class="relative pl-6">
-          <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-amber-600 border-4 border-black"></div>
-          <span class="text-xs font-bold text-amber-400 bg-amber-950 px-2 py-0.5 rounded">西暦 234 〜 249 年</span>
-          <h3 class="text-lg font-bold text-white mt-1">第1部：巨星落つ・後継者たちの苦闘（全3巻・約500P）</h3>
-          <p class="text-xs text-gray-300 mt-1 leading-relaxed">
-            ・諸葛亮没と蜀軍撤退、魏延の反乱<br>
-            ・魏の専権争い（司馬懿 vs 曹爽／高平陵の変）<br>
-            ・呉の二宮事件（孫権の老害化、陸遜憤死、血の粛清）
-          </p>
+      <div class="space-y-4 text-sm">
+        <div class="bg-zinc-900 p-4 rounded border-l-4 border-amber-600">
+          <div class="font-bold text-amber-300">第1部：巨星落つ・後継者たちの苦闘（234〜249年）</div>
+          <p class="text-xs text-gray-400 mt-1">諸葛亮没、魏延の乱、蒋琬・費禕体制、司馬懿の高平陵の変、呉の二宮事件</p>
         </div>
-
-        <div class="relative pl-6">
-          <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-sky-600 border-4 border-black"></div>
-          <span class="text-xs font-bold text-sky-400 bg-sky-950 px-2 py-0.5 rounded">西暦 250 〜 264 年</span>
-          <h3 class="text-lg font-bold text-white mt-1">第2部：蜀漢の落日と司馬氏の専権（全4巻・約700P）</h3>
-          <p class="text-xs text-gray-300 mt-1 leading-relaxed">
-            ・姜維の北伐断行と黄皓の専横、蜀国内の疲弊<br>
-            ・諸葛誕の乱、司馬昭による皇帝弑逆（高貴郷公・曹髦の死）<br>
-            ・鄧艾の陰平山越えと蜀漢降伏、姜維・鍾会の反乱と最期
-          </p>
+        <div class="bg-zinc-900 p-4 rounded border-l-4 border-sky-600">
+          <div class="font-bold text-sky-300">第2部：蜀漢の落日と司馬氏の専権（250〜264年）</div>
+          <p class="text-xs text-gray-400 mt-1">姜維の北伐、諸葛誕の乱、鄧艾の蜀急襲と蜀漢滅亡、鍾会・姜維の最期</p>
         </div>
-
-        <div class="relative pl-6">
-          <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-red-600 border-4 border-black"></div>
-          <span class="text-xs font-bold text-red-400 bg-red-950 px-2 py-0.5 rounded">西暦 265 〜 290 年</span>
-          <h3 class="text-lg font-bold text-white mt-1">第3部：三国の終焉と新王朝の黄昏（全3巻・約700P）</h3>
-          <p class="text-xs text-gray-300 mt-1 leading-relaxed">
-            ・司馬炎の即位（西晋建国・魏滅亡）<br>
-            ・呉の暴君・孫晧の狂気と、陸抗・羊祜の国境の絆<br>
-            ・西晋の呉侵攻（杜預破竹の勢い、王濬の楼船）と三国統一<br>
-            ・統一後の司馬炎の贅沢、八王の乱の予兆と司馬炎崩御
-          </p>
+        <div class="bg-zinc-900 p-4 rounded border-l-4 border-red-600">
+          <div class="font-bold text-red-300">第3部：三国の終焉と新王朝の黄昏（265〜290年）</div>
+          <p class="text-xs text-gray-400 mt-1">司馬炎即位、陸抗と羊祜、西晋の呉討伐と三国統一、司馬炎崩御</p>
         </div>
       </div>
     </section>
@@ -439,7 +514,6 @@
 
   <footer class="mt-16 py-6 border-t border-zinc-800 text-center text-xs text-zinc-500">
     <p>三国志その後 マンガ制作プロジェクト &copy; 2026 kekoyana / kataribe</p>
-    <p class="mt-1">GitHub Pages 版ビューア</p>
   </footer>
 
   <script>
