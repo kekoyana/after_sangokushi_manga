@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "title": "三国志その後 漫画書庫",
+  "completedThrough": 1,
+  "totalPages": 12,
+  "milestone": 5,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "五丈原の秋風",
+      "status": "complete",
+      "pageCount": 12,
+      "cover": "assets/ch001/cover.jpg",
+      "manifest": "data/ch001.json",
+      "synopsis": "建興十二年秋、五丈原。諸葛亮臨終の時、夜空を赤い巨星が切り裂く。司馬懿の猛追と木像孔明の逆襲。"
+    },
+    {
+      "number": 2,
+      "title": "魏延散る・反骨の刃",
+      "status": "upcoming",
+      "pageCount": 0,
+      "cover": "assets/ch001/cover.jpg",
+      "manifest": "",
+      "synopsis": "桟道を焼き払い孤立する蜀軍。楊儀との権力闘争の果てに、猛将・魏延を待ち受ける馬岱の刃。"
+    },
+    {
+      "number": 3,
+      "title": "二宮事件・宮廷の血脈",
+      "status": "upcoming",
+      "pageCount": 0,
+      "cover": "assets/ch001/cover.jpg",
+      "manifest": "",
+      "synopsis": "呉の老帝・孫権の後継争い。全公主の暗躍と名将・陸遜の憤死。名門が次々と粛清される狂気の宮廷。"
+    },
+    {
+      "number": 4,
+      "title": "高平陵の変・司馬懿のクーデター",
+      "status": "upcoming",
+      "pageCount": 0,
+      "cover": "assets/ch001/cover.jpg",
+      "manifest": "",
+      "synopsis": "病を装い老い衰えたふりをする司馬仲達。皇帝が陵墓参拝に出た一瞬の隙を突き、魏の洛陽を制圧する。"
+    },
+    {
+      "number": 5,
+      "title": "姜維北伐・遺志を継ぐ者",
+      "status": "upcoming",
+      "pageCount": 0,
+      "cover": "assets/ch001/cover.jpg",
+      "manifest": "",
+      "synopsis": "孔明の遺志を胸に、九度にわたり中原へ攻め込む姜維。立ちはだかる魏の智将・鄧艾との激闘。"
+    }
+  ]
+}
