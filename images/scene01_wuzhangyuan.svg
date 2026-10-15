@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="60%" stop-color="#44403c" />
+      <stop offset="100%" stop-color="#78716c" />
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#292524" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="windBlur">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="320" fill="url(#skyGrad)" />
+  <path d="M0 260 L90 210 L210 250 L350 190 L520 240 L680 180 L800 230 L800 320 L0 320 Z" fill="#1c1917" opacity="0.8" />
+  <path d="M0 280 L140 230 L300 270 L480 220 L620 260 L750 210 L800 250 L800 320 L0 320 Z" fill="#0c0a09" />
+  <path d="M0 320 Q200 290 400 310 T800 300 L800 350 L0 350 Z" fill="url(#riverGrad)" opacity="0.6" />
+  <path d="M0 330 Q400 310 800 330 L800 450 L0 450 Z" fill="url(#groundGrad)" />
+
+  <path d="M-50 180 Q200 150 450 170 T850 160" stroke="#a8a29e" stroke-width="1.5" fill="none" opacity="0.3" filter="url(#windBlur)" />
+  <path d="M-20 220 Q250 190 500 210 T900 190" stroke="#d6d3d1" stroke-width="2" fill="none" opacity="0.4" filter="url(#windBlur)" />
+  <path d="M100 280 Q350 250 650 270 T950 250" stroke="#a8a29e" stroke-width="1.5" fill="none" opacity="0.2" filter="url(#windBlur)" />
+
+  <g fill="#000000" opacity="0.7">
+    <line x1="120" y1="280" x2="120" y2="230" stroke="#000" stroke-width="2" />
+    <polygon points="120,230 150,240 120,250" />
+    <line x1="160" y1="285" x2="160" y2="235" stroke="#000" stroke-width="2" />
+    <polygon points="160,235 190,245 160,255" />
+    <line x1="200" y1="282" x2="200" y2="228" stroke="#000" stroke-width="2" />
+    <polygon points="200,228 235,238 200,248" />
+  </g>
+
+  <polygon points="620,380 720,280 820,380" fill="#1c1917" stroke="#44403c" stroke-width="2" />
+  <polygon points="650,380 720,300 790,380" fill="#090a0f" />
+  
+  <line x1="580" y1="420" x2="580" y2="180" stroke="#78350f" stroke-width="5" />
+  <path d="M580 185 Q660 170 710 195 Q650 230 580 240 Z" fill="#d97706" opacity="0.9" stroke="#b45309" stroke-width="2" />
+  <text x="610" y="222" font-family="'Yuji Boku', 'Noto Serif JP', serif" font-size="28" font-weight="900" fill="#451a03">漢</text>
+
+  <line x1="530" y1="430" x2="530" y2="230" stroke="#44403c" stroke-width="3" />
+  <path d="M530 235 Q590 220 630 245 Q580 270 530 280 Z" fill="#b45309" opacity="0.7" />
+
+  <path d="M80 430 Q90 360 85 320 Q80 290 70 270 M85 320 Q110 300 130 290 M85 340 Q60 320 40 315" stroke="#1c1917" stroke-width="4" fill="none" stroke-linecap="round" />
+
+  <text x="50" y="80" font-family="'Yuji Boku', 'Shippori Mincho', serif" font-size="36" font-weight="900" fill="#d97706" opacity="0.75" letter-spacing="8">【五丈原の秋風】</text>
+  <text x="70" y="130" font-family="'Yuji Boku', serif" font-size="26" font-weight="bold" fill="#78716c" opacity="0.6">ヒュオォォォォ……</text>
+</svg>

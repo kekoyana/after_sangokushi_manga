@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fogGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="40%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="mist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="blurFilter">
+      <feGaussianBlur stdDeviation="5" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#fogGrad)" />
+
+  <path d="M0 0 L180 0 L150 180 L220 280 L140 450 L0 450 Z" fill="#090d16" />
+  <path d="M800 0 L640 0 L680 150 L590 260 L680 450 L800 450 Z" fill="#090d16" />
+
+  <g fill="#d97706" opacity="0.8">
+    <line x1="160" y1="120" x2="160" y2="70" stroke="#78350f" stroke-width="2" />
+    <polygon points="160,70 190,80 160,90" />
+    <line x1="200" y1="180" x2="200" y2="130" stroke="#78350f" stroke-width="2" />
+    <polygon points="200,130 230,140 200,150" />
+    <line x1="620" y1="100" x2="620" y2="50" stroke="#78350f" stroke-width="2" />
+    <polygon points="620,50 590,60 620,70" />
+  </g>
+
+  <rect y="160" width="800" height="150" fill="url(#mist)" filter="url(#blurFilter)" />
+
+  <g fill="#020617" stroke="#1e293b" stroke-width="2">
+    <circle cx="340" cy="380" r="40" fill="#0b0f19" stroke="#b45309" stroke-width="4" />
+    <circle cx="460" cy="380" r="40" fill="#0b0f19" stroke="#b45309" stroke-width="4" />
+    <polygon points="320,350 480,350 490,320 310,320" fill="#18181b" />
+    <line x1="400" y1="320" x2="400" y2="110" stroke="#78350f" stroke-width="4" />
+    <path d="M280 140 Q400 90 520 140 Z" fill="#7f1d1d" stroke="#f59e0b" stroke-width="2" />
+    <polygon points="380,160 420,160 415,130 385,130" fill="#090a0f" />
+    <rect x="375" y="155" width="50" height="8" rx="2" fill="#d97706" />
+    <ellipse cx="400" cy="180" rx="16" ry="20" fill="#e2e8f0" />
+    <path d="M390 190 Q400 240 405 240 Q410 240 410 190 Z" fill="#090a0f" />
+    <path d="M340 320 L370 200 L430 200 L460 320 Z" fill="#090a0f" />
+    <path d="M380 200 L400 280 L420 200 Z" fill="#ffffff" opacity="0.9" />
+    <path d="M430 240 Q490 200 480 270 Q430 270 425 250 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  </g>
+
+  <rect y="280" width="800" height="170" fill="url(#mist)" filter="url(#blurFilter)" />
+
+  <g transform="translate(560, 240)" opacity="0.95">
+    <polygon points="40,20 80,0 120,20 130,50 30,50" fill="#3b0764" stroke="#c084fc" stroke-width="2" />
+    <path d="M30 50 Q80 40 130 50 L120 130 L40 130 Z" fill="#1e1b4b" />
+    <ellipse cx="65" cy="70" rx="8" ry="12" fill="#ffffff" />
+    <circle cx="65" cy="70" r="3" fill="#000" />
+    <ellipse cx="95" cy="70" rx="8" ry="12" fill="#ffffff" />
+    <circle cx="95" cy="70" r="3" fill="#000" />
+    <ellipse cx="80" cy="100" rx="15" ry="20" fill="#450a0a" stroke="#ef4444" stroke-width="2" />
+  </g>
+
+  <text x="380" y="80" font-family="'Yuji Boku', serif" font-size="36" font-weight="900" fill="#fef08a" text-shadow="0 0 10px rgba(0,0,0,0.8)">「孔明が生きておる―――ッ！？」</text>
+  <text x="50" y="420" font-family="'Shippori Mincho', serif" font-size="18" font-weight="bold" fill="#38bdf8" letter-spacing="3">死せる孔明、生ける仲達を走らす</text>
+</svg>
