@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "title": "三国志その後 漫画書庫",
-  "completedThrough": 1,
-  "totalPages": 11,
+  "completedThrough": 2,
+  "totalPages": 18,
   "milestone": 5,
   "chapters": [
     {
@@ -17,11 +17,11 @@
     {
       "number": 2,
       "title": "魏延散る・反骨の刃",
-      "status": "upcoming",
-      "pageCount": 0,
-      "cover": "assets/ch001/cover.jpg",
-      "manifest": "",
-      "synopsis": "桟道を焼き払い退路を断つ魏延。楊儀との熾烈な権力闘争の果てに、猛将・魏延を待ち受ける馬岱の刃。"
+      "status": "complete",
+      "pageCount": 7,
+      "cover": "assets/ch002/cover.jpg",
+      "manifest": "data/ch002.json",
+      "synopsis": "桟道を焼き払い退路を断つ魏延。楊儀との熾烈な権力闘争の果てに、猛将・魏延を待ち受ける馬岱の刃。「我ここにあり！」の叫びとともに散る反骨の猛将と、蜀漢の激動を描く第二話完結編。"
     },
     {
       "number": 3,
@@ -30,7 +30,7 @@
       "pageCount": 0,
       "cover": "assets/ch001/cover.jpg",
       "manifest": "",
-      "synopsis": "呉の老帝・孫権の後継争い。全公主の暗躍と名将・陸遜の憤死。名門が次々と粛清される狂気の宮廷劇。"
+      "synopsis": "呉の老帝・孫権の後継争い。全公主の暗壊と名将・陸遜の憤死。名門が次々と粛清される狂気の宮廷劇。"
     },
     {
       "number": 4,

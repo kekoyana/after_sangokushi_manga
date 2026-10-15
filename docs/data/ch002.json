@@ -1,0 +1,14 @@
+{
+  "number": 2,
+  "title": "魏延散る・反骨の刃",
+  "status": "complete",
+  "pages": [
+    {"number": 1, "src": "assets/ch002/p001.jpg", "width": 848, "height": 1264},
+    {"number": 2, "src": "assets/ch002/p002.jpg", "width": 896, "height": 1200},
+    {"number": 3, "src": "assets/ch002/p003.jpg", "width": 896, "height": 1200},
+    {"number": 4, "src": "assets/ch002/p004.jpg", "width": 848, "height": 1264},
+    {"number": 5, "src": "assets/ch002/p005.jpg", "width": 896, "height": 1200},
+    {"number": 6, "src": "assets/ch002/p006.jpg", "width": 848, "height": 1264},
+    {"number": 7, "src": "assets/ch002/p007.jpg", "width": 896, "height": 1200}
+  ]
+}

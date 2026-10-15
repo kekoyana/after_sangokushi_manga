@@ -1,0 +1,76 @@
+{
+  "chapter": 2,
+  "tool": "image-generator / AI Manga Illustrator",
+  "pages": [
+    {
+      "number": 1,
+      "title": "表紙・魏延散る",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/weiyan_manga_cover_ch2_1792052712039.jpg",
+      "output": "assets/ch002/p001.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "76216b471410df4b7fd20f9ea265b7b3d2b6f19f524b3eaee83a2c50fa360add",
+      "verified": true
+    },
+    {
+      "number": 2,
+      "title": "桟道炎上",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wei_yan_manga_page_2_v3_1792052770523.jpg",
+      "output": "assets/ch002/p002.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "01d055cb43a2b80a09570e6419e6ad0fcd3df382f8133733134af4cf13878ac2",
+      "verified": true
+    },
+    {
+      "number": 3,
+      "title": "楊儀の激怒と密書",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_3_v2_1792052874957.jpg",
+      "output": "assets/ch002/p003.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "5aa9e057379bcde1955a5a74d53a91905c5924f4a9cbb03010518da45f5d512c",
+      "verified": true
+    },
+    {
+      "number": 4,
+      "title": "馬岱への密命",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_4_madai_1792052839939.jpg",
+      "output": "assets/ch002/p004.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "7bdcea511d1eb77ea8c7bcb7669890bbbcc9d7ca6bc23964325a92447405325a",
+      "verified": true
+    },
+    {
+      "number": 5,
+      "title": "南谷里の対峙",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_5_wei_yan_2x2_1792052962497.jpg",
+      "output": "assets/ch002/p005.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "2feae947b99f0aa02d1dbd72f3ec8065fc6bc8c80f51c80f28d1b55b2a874a4b",
+      "verified": true
+    },
+    {
+      "number": 6,
+      "title": "反骨の断罪（クライマックス見開き）",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wei_yan_death_splash_page_v2_1792052964025.jpg",
+      "output": "assets/ch002/p006.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "d297517009c7eb3e459ccfb8819ba00b656e33c9068c5ce22797804281dbf442",
+      "verified": true
+    },
+    {
+      "number": 7,
+      "title": "楊儀の慢心と没落",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/seinen_manga_page_7_yang_yi_wei_yan_1792053027273.jpg",
+      "output": "assets/ch002/p007.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "096e141ee9fca8bda6d518e03a4b4e7d78137c78fec2e8cb32bcc2a3c4f4bd06",
+      "verified": true
+    }
+  ]
+}
