@@ -1,0 +1,117 @@
+{
+  "chapter": 1,
+  "title": "五丈原の秋風",
+  "theme": "諸葛亮死後〜司馬炎崩御",
+  "period": "蜀漢 建興十二年 / 魏 青龍二年（西暦234年）秋",
+  "style": {
+    "genre": "Seinen historical manga",
+    "tone": "Dramatic black and white ink, fine screentone shading, high detail",
+    "aspectRatio": "1080x1528 (vertical page)",
+    "language": "Japanese vertical text dialogues inside manga speech bubbles"
+  },
+  "characters": {
+    "諸葛亮（孔明）": "54歳。病弱で面長、白い鶴氅（白衣）と道服、綸巾。衰弱しながらも眼光は澄み渡る。手には白羽扇。",
+    "姜維（伯約）": "30代前半。精悍な顔立ち、太眉、引き締まった体躯。蜀の武官鎧と外套。誠実で燃える忠誠心。",
+    "司馬懿（仲達）": "50代半ば。鋭く怜悧な眼光（狼顧の相）、威厳ある髭。魏の豪華な司令官甲冑とマント。",
+    "魏延（文長）": "40代後半。頑強な肉体、厳つい顎髭、ギラつく野心的な眼。重装歩兵鎧、大刀を携える。",
+    "李福（孫徳）": "成都からの文官勅使。冠と長衣、慌ただしい表情。"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "title": "表紙・五丈原の秋風",
+      "type": "cover",
+      "status": "pending_generation",
+      "scene": "第1回表紙扉絵。荒涼たる五丈原の原野に一人立つ諸葛孔明の後ろ姿と横顔。吹き荒ぶ秋風に翻る『漢』の軍旗。タイトル題字『三国志その後 第一回 五丈原の秋風』。",
+      "prompt": "Japanese seinen manga cover page, high detail ink drawing with screentones, vertical composition (1080x1528). Title in bold calligraphy: '三国志その後 第一回 五丈原の秋風'. Center: Zhuge Liang (诸葛孔明) standing proudly yet tragically on the windswept Wuzhangyuan plateau, wearing a flowing Taoist robe and crane cloak, holding a white feather fan, gazing across the dry landscape. In the background, battle banners flapping violently in cold autumn wind with the character '漢' (Han). Melancholic, epic historical manga aesthetic."
+    },
+    {
+      "number": 2,
+      "title": "五丈原の対峙",
+      "type": "4-panel",
+      "status": "pending_generation",
+      "scene": "4コマ構成。1右上：渭水北岸の魏軍本陣で双眼鏡/遠眼鏡を手に対岸を睨む司馬懿。『孔明、食は少なく事は煩雑……その命運は尽きかけておる』。2左上：冷たい秋風が吹き抜ける五丈原の原野【ヒュオォォォ】。3右下：蜀軍本陣の薄暗い天幕。灯火と積まれた軍書。4左下：病床の諸葛孔明が口元を押さえて喀血する。【ゴホッ！】【丞相！ 血が……！】。下中央にページ番号2。",
+      "prompt": "Japanese seinen manga page, 4 panels (2 rows, 2 columns, reading top-right -> top-left -> bottom-right -> bottom-left). Black and white ink drawing with screen tones, clean white borders. Panel 1 (top-right): Sima Yi in ornate Wei commander armor looking through binoculars across the river with a sharp cold gaze, Japanese dialogue bubble '孔明、食は少なく事は煩雑……その命運、もはや尽きかけておるわ'. Panel 2 (top-left): Wide desolate view of Wuzhangyuan plateau, dry grass bending under violent cold autumn wind, SFX text 'ヒュオォォォ'. Panel 3 (bottom-right): Interior of Shu-Han command tent, flickering oil lamp, stacks of bamboo scrolls. Panel 4 (bottom-left): Zhuge Liang coughing blood into a silk cloth, loyal attendant panicked, dialogue '丞相！ 血が……！'. Page number 2 at bottom margin."
+    },
+    {
+      "number": 3,
+      "title": "五丈原の秋風（見開き）",
+      "type": "spread",
+      "status": "completed",
+      "asset": "images/scene01_wuzhangyuan.jpg",
+      "scene": "五丈原の秋風見開き大ゴマ作画。渭水を挟んで対峙する蜀軍と魏軍の無数の軍旗、吹き抜ける冷たい秋風。"
+    },
+    {
+      "number": 4,
+      "title": "兵法二十四編の授与",
+      "type": "4-panel",
+      "status": "pending_generation",
+      "scene": "4コマ構成。1右上：天幕に駆け込み跪く姜維。『丞相！ 姜維、参上いたしました！』。2左上：横たわる孔明が弱々しく手を伸ばす。『伯約、近くへ……我が天命、もはや長くない』。3右下：錦の箱から取り出される兵法書。『我が半生の心血を注いだ兵法二十四編だ』。4左下：姜維が涙を流して両手で受け取る。『必ずや漢室を復興してみせまする！』。下中央にページ番号4。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Detailed black and white ink, screentone shading. Panel 1 (top-right): Young general Jiang Wei rushing into the military tent, kneeling with deep sorrow and respect, dialogue bubble '丞相！ 姜維、参上いたしました！'. Panel 2 (top-left): Sick Zhuge Liang in bed, reaching out a frail hand, gentle yet sharp gaze, dialogue '伯約、近くへ……我が時は長くない'. Panel 3 (bottom-right): Zhuge Liang presenting an ornate lacquered box containing military scrolls, dialogue '我が心血を注いだ『兵法二十四編』だ'. Panel 4 (bottom-left): Jiang Wei crying emotional tears as he receives the sacred scrolls with both hands, dialogue '必ずや漢室を復興してみせまする！'. Page number 4 at bottom margin."
+    },
+    {
+      "number": 5,
+      "title": "兵は凶器なり",
+      "type": "2-panel-dramatic",
+      "status": "pending_generation",
+      "scene": "上段大ゴマ＋下段2コマ。1上段大ゴマ：孔明の鬼気迫る鋭い眼光のアップ。『よいか伯約。心に深く刻め。「兵は凶器なり。戦は不吉の業なり」勝ちを焦り、民を泣かせることだけは決してしてはならぬ……！』。2下段右：師の遺訓を胸に刻み深く頭を下げる姜維。3下段左：天幕の外に成都からの勅使・李福が息せき切って到着する影。下中央にページ番号5。",
+      "prompt": "Japanese seinen manga page, dramatic composition. Top half: One large dominant panel showing a severe, piercing close-up of Zhuge Liang's eyes and face filled with ultimate resolve and solemn warning, bold dramatic speech bubble 'よいか伯約！「兵は凶器なり。戦は不吉の業なり」勝ちを焦り民を泣かせることだけは決してしてはならぬ……！'. Bottom-right panel: Jiang Wei bowing deeply with tears, engraving the oath into his soul. Bottom-left panel: Outside the tent under the dark moonlight, royal messenger Li Fu arriving anxiously on horseback. Page number 5 at bottom."
+    },
+    {
+      "number": 6,
+      "title": "後継の密命と沈黙",
+      "type": "4-panel",
+      "status": "pending_generation",
+      "scene": "4コマ構成。1右上：成都からの勅使・李福が病床に滑り込む。『丞相！ 陛下よりの仰せです！ 万一の後は、どなたに国家の大政を託すべきでしょうか！』。2左上：孔明『……蒋琬がよい。その次は費禕だ』。3右下：身を乗り出す李福『その費禕の後は……どなたが！？』。4左下：孔明は静かに目を閉じ、沈黙する【…………】。下中央にページ番号6。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Detailed black and white ink, fine screentone. Panel 1 (top-right): Messenger Li Fu kneeling beside Zhuge Liang's bed, asking desperately: '丞相！ 万一の後は、どなたに国家の大政を託すべきでしょうか！'. Panel 2 (top-left): Zhuge Liang whispering faintly: '蒋琬がよい。その次は費禕だ'. Panel 3 (bottom-right): Li Fu leaning forward anxiously: 'その費禕の後は……どなたが！？'. Panel 4 (bottom-left): Zhuge Liang quietly closes his eyes in profound silence, speaking no more. Ominous quiet atmosphere, SFX text '…………'. Page number 6 at bottom."
+    },
+    {
+      "number": 7,
+      "title": "魏延の火種",
+      "type": "3-panel",
+      "status": "pending_generation",
+      "scene": "3コマ構成。1上段：深夜、前軍の幕舎。月光と篝火の下、抜き身の巨大な大刀を砥石で研ぐ猛将・魏延。【シャッ……シャッ……】。2中段：魏延のギラつく獰猛な瞳と野心。『丞相一人が身罷られたとて、天下の大業を捨て去る道理があるか！ 楊儀ごときの指図を受けて退却してたまるか！』。3下段：『俺が残る全軍を率い、司馬懿の首を獲って長安へ駆け抜けてくれるわ！』。下中央にページ番号7。",
+      "prompt": "Japanese seinen manga page, 3 dynamic panels. Seinen manga style, heavy ink contrasts and dark screentones. Top panel: Ferocious general Wei Yan (魏延) sitting in his dimly lit tent at midnight, sharpening a huge crescent blade sword on a whetstone under moonlight, cold metallic SFX 'シャッ……シャッ……'. Middle panel: Intense close-up of Wei Yan's rebellious, ambitious eyes, dialogue '丞相一人が身罷られたとて天下の大業を捨てる道理があるか！ 楊儀ごときの指図で退却ってたまるか！'. Bottom panel: Wei Yan raising his gleaming great blade, roaring with ambition '俺が全軍を率い、司馬懿の首を獲って長安へ攻め入ってくれるわ！'. Page number 7 at bottom."
+    },
+    {
+      "number": 8,
+      "title": "諸葛孔明 臨終",
+      "type": "4-panel",
+      "status": "pending_generation",
+      "scene": "4コマ構成。1右上：建興十二年八月二十三日深夜、五丈原本陣の静寂。2左上：薄れゆく意識の中、孔明の瞳に去来する劉備・関羽・張飛の幻影。『先帝……いま、おそばへ参ります――』。3右下：力尽きた右手から滑り落ちる白羽扇。【カラン……】。4左下：息を引き取る孔明。享年五十四。下中央にページ番号8。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Emotional, tragic seinen manga art. Panel 1 (top-right): Deep midnight at Wuzhangyuan camp, soldiers weeping outside the commander's tent. Panel 2 (top-left): Dying Zhuge Liang seeing a warm vision/silhouette of Liu Bei, Guan Yu, and Zhang Fei in the golden haze, peaceful smile, dialogue '先帝……いま、おそばへ参ります――'. Panel 3 (bottom-right): Close-up of his limp right hand opening, the iconic white feather fan slipping and falling to the floor mat, SFX 'カラン……'. Panel 4 (bottom-left): Zhuge Liang taking his final breath and resting forever, tragic sorrow, caption '建興十二年八月二十三日、諸葛孔明 陣没。享年五十四。'. Page number 8 at bottom."
+    },
+    {
+      "number": 9,
+      "title": "巨星墜つ（見開き）",
+      "type": "spread",
+      "status": "completed",
+      "asset": "images/scene04_meteor.jpg",
+      "scene": "巨星墜つ見開き大ゴマ作画。夜空を裂いて落ちる巨大な赤い流星と、孔明の死を悟り慟哭する将兵たち。"
+    },
+    {
+      "number": 10,
+      "title": "司馬懿の猛追と白霧",
+      "type": "4-panel",
+      "status": "pending_generation",
+      "scene": "4コマ構成。1右上：流星を見た司馬懿が歓喜し出撃を命じる。『孔明は死んだぞ！ 全軍突撃！ 蜀軍を一兵たりとも帰すな！』。2左上：数万の魏軍精鋭騎兵が五丈原を駆け下りる【ドドドドッ！】。3右下：退却する蜀軍を狭谷へと追い詰める魏軍先鋒。4左下：突如、狭谷一面に立ち込める不気味な濃霧。激しく打ち鳴らされる太鼓の轟音！【ドォォォン！！】。下中央にページ番号10。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). High tempo action seinen manga. Panel 1 (top-right): Sima Yi raising his sword in ferocious triumph: '巨星墜つ！ 孔明は死んだぞ！ 全軍追撃せよ！'. Panel 2 (top-left): Thousands of heavy cavalry of Wei storming down the slopes of Wuzhangyuan into the river valley, dust clouds, SFX 'ドドドドッ！'. Panel 3 (bottom-right): Vanguard of Wei cornering the retreating Shu rear guard in a narrow rocky canyon. Panel 4 (bottom-left): Sudden supernatural thick white mist rolling in, followed by massive war drums echoing from the fog, SFX 'ドォォォン！！'. Page number 10 at bottom."
+    },
+    {
+      "number": 11,
+      "title": "死せる孔明、生ける仲達を走らす（見開き）",
+      "type": "spread",
+      "status": "completed",
+      "asset": "images/scene05_wooden_statue.jpg",
+      "scene": "死せる孔明、生ける仲達を走らす見開き大ゴマ作画。霧の中から現れる四輪車の木像孔明と、顔面蒼白で逃走する司馬懿。"
+    },
+    {
+      "number": 12,
+      "title": "新時代の暗雲",
+      "type": "4-panel",
+      "status": "pending_generation",
+      "scene": "4コマ構成。1右上：逃げ延びた司馬懿が木像であったと知り冷笑する。『死せる孔明、生ける仲達を走らす、か……。だが奴は死んだ。我が前に敵はおらぬ』。2左上：退却路で先回りし、桟道を焼き払う魏延軍の業火！【ゴオォォォッ】『魏延が謀反を起こした！』。3右下：暗雲漂う中原の地図と成都・洛陽・建業の宮廷シルエット。4左下：ト書き『巨星は墜ち、英雄の時代は去った。だがそれは血で血を洗う新たな暗黒時代の幕開けであった――』。次回：第二回「魏延散る・反骨の刃」へ続く。下中央にページ番号12。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Dramatic conclusion. Panel 1 (top-right): Sima Yi having survived, smiling bitterly yet ambitiously: '死せる孔明、生ける仲達を走らす、か……だが奴は死んだ。天下は我がものぞ'. Panel 2 (top-left): Wei Yan's rebel soldiers setting fire to the Shu mountain cliff plank gallery roads, massive flames shooting up, SFX 'ゴオォォォッ', shouts '魏延が謀反を起こした！'. Panel 3 (bottom-right): Silhouette of China map under ominous storm clouds, highlighting Luoyang, Chengdu, and Jianye capitals. Panel 4 (bottom-left): Epic concluding caption '巨星墜ち、英雄たちの三国志は去った。だがそれは、天下が血で血を洗う「その後の三国志」の幕開けに過ぎなかった――'. Bottom text: '第一回 完 ／ 次回：第二回「魏延散る・反骨の刃」へ続く'. Page number 12 at bottom."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "chapter": 1,
+  "tool": "image-generator / AI Manga Illustrator",
+  "pages": [
+    {
+      "number": 1,
+      "title": "表紙・五丈原の秋風",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wuzhangyuan_cover_1792036034479.jpg",
+      "output": "assets/ch001/p001.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "90dcd4629de65b573fb8b022a9fbacba39807f4171f393f823892f31af996b1d",
+      "verified": true
+    },
+    {
+      "number": 2,
+      "title": "五丈原の対峙",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wuzhangyuan_manga_page_2_1792036036921.jpg",
+      "output": "assets/ch001/p002.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "3bea1fe2bd33370c4086e5dd7efe70c62a7a797513f84c29aa932939be557d69",
+      "verified": true
+    },
+    {
+      "number": 3,
+      "title": "五丈原の秋風（見開き）",
+      "sourceImage": "images/scene01_wuzhangyuan.jpg",
+      "output": "assets/ch001/p003.jpg",
+      "width": 1376,
+      "height": 768,
+      "sha256": "fdb18e18417e3aed207080a89fb45513af36ef0a6be87b7e92649e58dccabff0",
+      "verified": true
+    },
+    {
+      "number": 4,
+      "title": "兵法二十四編の授与",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/jiang_wei_zhuge_liang_manga_page_4_revised_1792036137953.jpg",
+      "output": "assets/ch001/p004.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "23acebbbd0878d4348e0b1d7148ecde6fd75c98d3c70d9c0e4b5167aae119446",
+      "verified": true
+    },
+    {
+      "number": 5,
+      "title": "兵は凶器なり",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_zhuge_liang_page5_1792036124363.jpg",
+      "output": "assets/ch001/p005.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "96b7614a493ef18aa73fa56b48e027c47ba7c745cd1be7cae9323b0c76cf3cd2",
+      "verified": true
+    },
+    {
+      "number": 6,
+      "title": "後継の密命と沈黙",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_6_zhuge_liang_deathbed_1792036189682.jpg",
+      "output": "assets/ch001/p006.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "ff0d6517f6ee804bc43698b3ff1b261a63deb4ae15a25a83102437c8fe6e91b0",
+      "verified": true
+    },
+    {
+      "number": 7,
+      "title": "魏延の火種",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wei_yan_manga_page_7_1792036239449.jpg",
+      "output": "assets/ch001/p007.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "29ab2b4aa6518c9895f7d6633c8a2f170a279814dd9cca7994fb2b2a898a8d93",
+      "verified": true
+    },
+    {
+      "number": 8,
+      "title": "諸葛孔明 臨終",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/zhuge_liang_final_moment_manga_page_1792036295485.jpg",
+      "output": "assets/ch001/p008.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "3353ceee568208af61a73f86973a10a043bf27209199ae183eea9bcba23c7a9d",
+      "verified": true
+    },
+    {
+      "number": 9,
+      "title": "巨星墜つ（見開き）",
+      "sourceImage": "images/scene04_meteor.jpg",
+      "output": "assets/ch001/p009.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "b1b34be6194f0109bb2ca4c50445e2d35692f3cac017ce10a2f297d3932e91d0",
+      "verified": true
+    },
+    {
+      "number": 10,
+      "title": "司馬懿の猛追と白霧",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wuzhangyuan_manga_page_10_1792036295316.jpg",
+      "output": "assets/ch001/p010.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "9647e45735053ca384fe960bf1cbc7dbc8b559c6a34979f57cd2fc944f52dfc7",
+      "verified": true
+    },
+    {
+      "number": 11,
+      "title": "死せる孔明、生ける仲達を走らす（見開き）",
+      "sourceImage": "images/scene05_wooden_statue.jpg",
+      "output": "assets/ch001/p011.jpg",
+      "width": 1376,
+      "height": 768,
+      "sha256": "5ff70a1fcf667e929ad6f8871fefc56fdf7660c14990da00b40e9a1e50c7bf67",
+      "verified": true
+    }
+  ]
+}
