@@ -38,6 +38,7 @@
 ---
 
 ## 4. 関連ドキュメント
+- [Webビューア（GitHub Pages）](https://kekoyana.github.io/after_sangokushi_manga/)
 - [第1話ネーム案](../episodes/ep01_fall_of_wuzhangyuan.md)
 - [二宮事件詳細プロット](../plots/ninomiya_incident.md)
 - [主要人物設定資料](../characters/profiles.md)
