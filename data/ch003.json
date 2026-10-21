@@ -1,0 +1,15 @@
+{
+  "number": 3,
+  "title": "二宮事件・宮廷の血脈",
+  "status": "complete",
+  "pages": [
+    {"number": 1, "src": "assets/ch003/p001.jpg", "width": 896, "height": 1200},
+    {"number": 2, "src": "assets/ch003/p002.jpg", "width": 848, "height": 1264},
+    {"number": 3, "src": "assets/ch003/p003.jpg", "width": 848, "height": 1264},
+    {"number": 4, "src": "assets/ch003/p004.jpg", "width": 896, "height": 1200},
+    {"number": 5, "src": "assets/ch003/p005.jpg", "width": 896, "height": 1200},
+    {"number": 6, "src": "assets/ch003/p006.jpg", "width": 848, "height": 1264},
+    {"number": 7, "src": "assets/ch003/p007.jpg", "width": 848, "height": 1264},
+    {"number": 8, "src": "assets/ch003/p008.jpg", "width": 896, "height": 1200}
+  ]
+}

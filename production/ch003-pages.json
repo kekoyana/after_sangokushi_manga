@@ -1,0 +1,87 @@
+{
+  "chapter": 3,
+  "title": "二宮事件・宮廷の血脈",
+  "theme": "呉の後継争い・老帝孫権の狂気と名将陸遜の憤死",
+  "period": "呉 赤烏四年〜赤烏十三年（西暦241年〜250年）",
+  "style": {
+    "genre": "Seinen historical manga",
+    "tone": "Dramatic black and white ink, dark political suspense and tragic gravitas",
+    "aspectRatio": "1080x1528 (vertical page)",
+    "language": "Japanese vertical text dialogues inside manga speech bubbles, plus rectangular character nameplate boxes (初登場ネームプレート) on first appearance"
+  },
+  "characters": {
+    "孫権（仲謀）": "呉の大帝。晩年を迎え猜疑心と怒りに支配される。初登場表記：『孫権（仲謀） 呉・大帝』",
+    "陸遜（伯言）": "呉の丞相・荊州大都督。白髪の気高き老将。初登場表記：『陸遜（伯言） 呉・丞相』",
+    "全公主（孫魯班）": "孫権の長女。冷酷な美貌で宮廷を裏から操る。初登場表記：『全公主（孫魯班） 孫権の長女』",
+    "孫和（子孝）": "孫権の三男・皇太子。温厚で気品ある青年。初登場表記：『孫和（子孝） 呉・皇太子』",
+    "孫覇（子威）": "孫権の四男・魯王。野心的な目つき。初登場表記：『孫覇（子威） 呉・魯王』",
+    "朱拠（子範）": "呉の驃騎将軍。忠義の武人。初登場表記：『朱拠（子範） 呉・驃騎将軍』",
+    "陸抗（幼節）": "陸遜の次男。若き凛々しき将。初登場表記：『陸抗（幼節） 陸遜の次男』"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "title": "表紙・二宮事件",
+      "type": "cover",
+      "status": "completed",
+      "scene": "第3回表紙扉絵。建業の薄暗い玉座に座り猜疑に満ちた眼光で睨む老帝・孫権と、その背後に立つ白髪の老宰相・陸遜の悲痛な横顔。題字『三国志その後 第三回 二宮事件・宮廷の血脈』、ネームプレート『孫権（仲謀） 呉・大帝』『陸遜（伯言） 呉・丞相』。",
+      "prompt": "Japanese seinen manga cover page, high detail black and white ink drawing with dark screentones, vertical composition. Title in bold calligraphy: '三国志その後 第三回 二宮事件・宮廷の血脈'. Foreground: Aging Emperor Sun Quan (孫権) sitting on his ornate dragon throne in deep shadow with paranoid, glaring eyes, accompanied by nameplate box '孫権（仲謀） 呉・大帝'. Background: Noble white-haired Prime Minister Lu Xun (陸遜) looking on with tragic sorrow and resolve, with nameplate box '陸遜（伯言） 呉・丞相'. Dark imperial palace atmosphere."
+    },
+    {
+      "number": 2,
+      "title": "二つの宮と割れる呉朝廷",
+      "type": "4-panel",
+      "status": "completed",
+      "scene": "4コマ構成。1右上：呉の都・建業の壮麗な宮殿と暗雲。2左上：玉座の老いた孫権。初登場ネームプレート『孫権（仲謀） 呉・大帝』、セリフ『皇太子・孫和と魯王・孫覇、いずれ劣らぬ我が子よ。同等の宮殿と礼遇を与えよ！』。3右下：並び立つ二人の皇子。初登場ネームプレート『孫和（子孝） 呉・皇太子』と『孫覇（子威） 呉・魯王』。4左下：太子派と魯王派に真っ二つに割れ睨み合う呉の群臣たち。下中央にページ番号2。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Grand imperial palace of Jianye (Wu) under ominous dark clouds, narration box: '赤壁を勝ち抜いた呉の英主・孫権も老い、後継を巡る暗闘が幕を開けた'. Panel 2 (top-left): Aging Emperor Sun Quan on his throne, with rectangular character nameplate box '孫権（仲謀） 呉・大帝' and speech bubble: '皇太子・孫和と魯王・孫覇、二人とも同等の宮殿と礼遇を与えよ！'. Panel 3 (bottom-right): Gentle Crown Prince Sun He with nameplate box '孫和（子孝） 呉・皇太子' facing ambitious Prince of Lu Sun Ba with nameplate box '孫覇（子威） 呉・魯王'. Panel 4 (bottom-left): Wu court officials splitting into two hostile factions glaring at each other. Page number 2 at bottom."
+    },
+    {
+      "number": 3,
+      "title": "全公主の毒牙と讒言",
+      "type": "4-panel",
+      "status": "completed",
+      "scene": "4コマ構成。1右上：孫権の寝所で涙を装い讒言する全公主。初登場ネームプレート『全公主（孫魯班） 孫権の長女』、セリフ『父上……皇太子の母・王夫人は、父上が病の折に喜んでおりました』。2左上：激怒して宝剣を抜く孫権『なんたる不忠！ 許さんぞ！』。3右下：魯王・孫覇と密議して冷酷に微笑む全公主『このまま孫和を廃嫡へ追い込むのです』。4左下：次々と投獄される太子派の重臣たち。下中央にページ番号3。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Scheming imperial princess Quan Gongzhu whispering slander to her aging father in his bedchamber, with rectangular character nameplate box '全公主（孫魯班） 孫権の長女' and speech bubble: '父上……皇太子の母・王夫人は、父上が病の折に密かに喜んでおりました'. Panel 2 (top-left): Old Sun Quan roaring in paranoid fury, drawing his sword: 'なんたる不忠！ 許さんぞ！'. Panel 3 (bottom-right): Quan Gongzhu and Sun Ba plotting in secret shadows with cold smiles: 'このまま孫和を廃嫡へ追い込むのです'. Panel 4 (bottom-left): Loyal ministers dragged away in chains into dark prison cells. Page number 3 at bottom."
+    },
+    {
+      "number": 4,
+      "title": "丞相・陸遜の悲痛なる上疏",
+      "type": "4-panel",
+      "status": "completed",
+      "scene": "4コマ構成。1右上：武昌の陣中で都の凶報を読む老将・陸遜。初登場ネームプレート『陸遜（伯言） 呉・丞相・荊州大都督』。2左上：必死に上疏文を書く陸遜『皇太子は国の根本。嫡庶の序列を乱せば呉は必ず内乱で滅びまする！』。3右下：建業へ疾走する早馬。4左下：上疏文を床に叩きつけ激怒する孫権『陸遜め！ 朕の政に口を出すか！』。下中央にページ番号4。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): In Wuchang fortress, dignified white-haired Prime Minister Lu Xun reading a scroll with deep anguish, with rectangular character nameplate box '陸遜（伯言） 呉・丞相・荊州大都督'. Panel 2 (top-left): Lu Xun writing an urgent memorial with brush and ink, speech bubble: '皇太子は国の根本。嫡庶の序列を乱せば、呉は必ず内乱で滅びまする！'. Panel 3 (bottom-right): Messenger on horseback galloping urgently toward the capital. Panel 4 (bottom-left): Old Sun Quan hurling the scroll to the palace floor in explosive rage: '陸遜め！ 武昌にいながら朕の政に口を出すか！'. Page number 4 at bottom."
+    },
+    {
+      "number": 5,
+      "title": "老帝の狂気・問責の使者",
+      "type": "4-panel",
+      "status": "completed",
+      "scene": "4コマ構成。1右上：武昌の陸遜のもとへ次々と押し寄せる問責の勅使。2左上：冷酷に罪状を読み上げる勅使『貴様の甥・顧譚らと結託し朕を脅かすつもりか！』。3右下：甥の流刑、盟友の獄死の報が重なる。4左下：老いた身を震わせ天を仰ぐ陸遜『陛下……かつての英明な主君はどこへ行ってしまわれたのか……！』。下中央にページ番号5。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Imperial envoys arriving at Lu Xun's residence in Wuchang with harsh decrees. Panel 2 (top-left): Envoy pointing coldly at kneeling Lu Xun: '陛下のお言葉である！ 甥の顧譚らと結託し朕を脅かすつもりか！'. Panel 3 (bottom-right): Tragic montage of Lu Xun's nephews exiled in chains and allies dying in prison. Panel 4 (bottom-left): 63-year-old Lu Xun trembling in heartbreak and despair, looking up at the dark sky: '陛下……かつての英明な主君は、どこへ行ってしまわれたのか……！'. Page number 5 at bottom."
+    },
+    {
+      "number": 6,
+      "title": "巨星憤死（クライマックス見開き）",
+      "type": "spread-climactic",
+      "status": "completed",
+      "scene": "クライマックス見開き大ゴマ。武昌の屋敷にて、国の行く末を憂いながら鮮血を吐いて倒れる名将・陸遜！『我が身はどうなろうと惜しくはない……だが、呉の社稷が……嗚呼……！！』効果音【ゴフッ……！！】ト書き『赤壁・夷陵を支えた呉の最大功臣・陸遜、憤死。享年六十三。』。下中央にページ番号6。",
+      "prompt": "Japanese seinen manga climactic splash page, high-contrast black and white ink with dramatic screentones. White-haired Prime Minister Lu Xun (陸遜) collapsing in his study, coughing blood onto his robes and bamboo scrolls in tragic agony and righteous grief. Speech bubble: '我が身はどうなろうと惜しくはない……だが、呉の社稷が……嗚呼……！！'. Dynamic SFX text: 【ゴフッ……！！】. Caption box: '呉の最大功臣・丞相 陸遜、憤死。享年六十三。'. Page number 6 at bottom."
+    },
+    {
+      "number": 7,
+      "title": "血塗られた大粛清",
+      "type": "4-panel",
+      "status": "completed",
+      "scene": "4コマ構成。1右上：額から血を流して石畳に叩頭する朱拠。初登場ネームプレート『朱拠（子範） 呉・驃騎将軍』、セリフ『陛下！ 皇太子を廃せば天下の笑い者となりまする！』。2左上：冷酷に言い放つ孫権『孫和は廃嫡して幽閉！ 孫覇には死を賜る！ 両派とも一掃してくれるわ！』。3右下：毒杯を仰ぎ自害する孫覇と処刑される朱拠。4左下：柱の陰から冷酷に微笑む全公主。下中央にページ番号7。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Loyal general Zhu Ju banging his bleeding forehead against the palace stone floor, with rectangular character nameplate box '朱拠（子範） 呉・驃騎将軍' and speech bubble: '陛下！ 皇太子を廃せば天下の笑い者となりまする！'. Panel 2 (top-left): Old Sun Quan roaring ruthlessly from his throne: '孫和は廃嫡して幽閉！ 孫覇には死を賜る！ 両派ともども一掃してくれるわ！'. Panel 3 (bottom-right): Sun Ba drinking poison in despair while loyalists are executed. Panel 4 (bottom-left): Quan Gongzhu smiling coldly from behind a palace pillar: 'これで宮中は私の思い通り……'. Page number 7 at bottom."
+    },
+    {
+      "number": 8,
+      "title": "亡国の爪痕と司馬懿の眼光",
+      "type": "4-panel",
+      "status": "completed",
+      "scene": "4コマ構成。1右上：父・陸遜の墓前に立つ若き陸抗。初登場ネームプレート『陸抗（幼節） 陸遜の次男』、セリフ『父上……私が呉の最後の盾となります』。2左上：重臣を失い傾きゆく呉の宮廷。3右下：北の洛陽で病を装いつつ不敵な眼光を放つ司馬懿。ネームプレート『司馬懿（仲達） 魏・太傅』。4左下：ト書き『呉が二宮事件の粛清で自滅への道を歩み始めた頃、北の魏では眠れる老狼・司馬仲達がついに牙を剥こうとしていた――』。柱コメント『第三回 完 ／ 次回：第四回「高平陵の変・司馬懿のクーデター」へ続く』。下中央にページ番号8。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Conclusion of Chapter 3. Panel 1 (top-right): Young general Lu Kang standing resolutely before his father Lu Xun's grave, with rectangular character nameplate box '陸抗（幼節） 陸遜の次男' and speech bubble: '父上……いかに国が乱れようと、私が呉の最後の盾となります'. Panel 2 (top-left): Dark silhouette of the weakened Wu imperial court. Panel 3 (bottom-right): In Luoyang, aging Sima Yi pretending to be bedridden yet opening one razor-sharp eye with chilling ambition, with nameplate box '司馬懿（仲達） 魏・太傅'. Panel 4 (bottom-left): Narration box: '呉が二宮事件の粛清で自滅への道を歩み始めた頃、北の魏では眠れる老狼・司馬仲達がついに牙を剥こうとしていた――'. Bold text: '第三回 完 ／ 次回：第四回「高平陵の変・司馬懿のクーデター」へ続く'. Page number 8 at bottom."
+    }
+  ]
+}

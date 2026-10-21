@@ -1,0 +1,86 @@
+{
+  "chapter": 3,
+  "tool": "image-generator / AI Manga Illustrator",
+  "pages": [
+    {
+      "number": 1,
+      "title": "表紙・二宮事件",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/ch3_cover_sun_quan_lu_xun_1792557305002.jpg",
+      "output": "assets/ch003/p001.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "a6e3f99fde7a8a2d41c507022e3e8325fbfbf4e3de71d0b619501bbc03c27040",
+      "verified": true
+    },
+    {
+      "number": 2,
+      "title": "二つの宮と割れる呉朝廷",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/chapter3_page2_nikan_incident_1792557377294.jpg",
+      "output": "assets/ch003/p002.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "958bcb80e75c6105f35307906e58de48b75c38791d865b3385c836db580cd1dd",
+      "verified": true
+    },
+    {
+      "number": 3,
+      "title": "全公主の毒牙と讒言",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/ch3_page3_nikan_incident_1792557378011.jpg",
+      "output": "assets/ch003/p003.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "d68eef73d3830ec2fb386956c9ad727d6e321802dd542844b05ebf82e227b6a2",
+      "verified": true
+    },
+    {
+      "number": 4,
+      "title": "丞相・陸遜の悲痛なる上疏",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_ch3_page4_1792557378296.jpg",
+      "output": "assets/ch003/p004.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "91d4b759b232945c877872aa835220d5ff655272d9d4a4c5483fbaedec27b446",
+      "verified": true
+    },
+    {
+      "number": 5,
+      "title": "老帝の狂気・問責の使者",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/ch3_page5_lu_xun_tragedy_1792557381869.jpg",
+      "output": "assets/ch003/p005.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "5984f4c6efb180003f1f424ac024734d3b4d3ca33f42a8dd5b55e9f248316474",
+      "verified": true
+    },
+    {
+      "number": 6,
+      "title": "巨星憤死（クライマックス見開き）",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/chapter3_page6_luxun_death_1792557458694.jpg",
+      "output": "assets/ch003/p006.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "5cc8ccaa34c556f2762f689d21c4c404f89e7557579e0a24c5458076e119c08a",
+      "verified": true
+    },
+    {
+      "number": 7,
+      "title": "血塗られた大粛清",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/ch3_page7_purge_1792557461025.jpg",
+      "output": "assets/ch003/p007.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "aef00c72768e50e3ad841b1feba3e34dbde1d97ac1132866b06908cdc9d877f0",
+      "verified": true
+    },
+    {
+      "number": 8,
+      "title": "亡国の爪痕と司馬懿の眼光",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_ch3_page8_1792557462227.jpg",
+      "output": "assets/ch003/p008.jpg",
+      "width": 896,
+      "height": 1200,
+      "sha256": "b23cefbdfdc0b154ed442896b7dcd7026056c6d66f1f59bc885dd49368f32865",
+      "verified": true
+    }
+  ]
+}

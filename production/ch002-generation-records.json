@@ -15,31 +15,31 @@
     {
       "number": 2,
       "title": "桟道炎上",
-      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/wei_yan_manga_page_2_v3_1792052770523.jpg",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/chapter2_page2_weiyan_updated_1792557544721.jpg",
       "output": "assets/ch002/p002.jpg",
-      "width": 896,
-      "height": 1200,
-      "sha256": "01d055cb43a2b80a09570e6419e6ad0fcd3df382f8133733134af4cf13878ac2",
+      "width": 848,
+      "height": 1264,
+      "sha256": "aefcb6b64fe70bc4f8fff08769b3ef661800535a2bedfa68351e0deb7ff8d467",
       "verified": true
     },
     {
       "number": 3,
       "title": "楊儀の激怒と密書",
-      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_3_v2_1792052874957.jpg",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/ch2_page3_nameplates_yangyi_jiangwei_1792557490198.jpg",
       "output": "assets/ch002/p003.jpg",
       "width": 896,
       "height": 1200,
-      "sha256": "5aa9e057379bcde1955a5a74d53a91905c5924f4a9cbb03010518da45f5d512c",
+      "sha256": "51d04274dbb9e12f999eeb58b779bd111fec26d7d77f62b8126ce5ea294cd8d7",
       "verified": true
     },
     {
       "number": 4,
       "title": "馬岱への密命",
-      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/manga_page_4_madai_1792052839939.jpg",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/ch2_page4_madai_secret_order_1792557547021.jpg",
       "output": "assets/ch002/p004.jpg",
       "width": 848,
       "height": 1264,
-      "sha256": "7bdcea511d1eb77ea8c7bcb7669890bbbcc9d7ca6bc23964325a92447405325a",
+      "sha256": "de1c900672dfddbd8472675b66226c70148af3b1886598a3cf8aad8764de6f02",
       "verified": true
     },
     {
@@ -70,6 +70,16 @@
       "width": 896,
       "height": 1200,
       "sha256": "096e141ee9fca8bda6d518e03a4b4e7d78137c78fec2e8cb32bcc2a3c4f4bd06",
+      "verified": true
+    },
+    {
+      "number": 8,
+      "title": "新体制の船出",
+      "sourceImage": "/home/kekoyana/.gemini/antigravity-cli/brain/420d6ac3-908f-48a1-a1fa-3f9ece05715d/chapter2_page8_conclusion_1792557303388.jpg",
+      "output": "assets/ch002/p008.jpg",
+      "width": 848,
+      "height": 1264,
+      "sha256": "ea4e1a0ac151e2cd24c09fb9fe48ce74f114866565382ed250cbd8d182331317",
       "verified": true
     }
   ]

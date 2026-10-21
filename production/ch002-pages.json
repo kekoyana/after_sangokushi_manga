@@ -7,14 +7,14 @@
     "genre": "Seinen historical manga",
     "tone": "Dramatic black and white ink, intense action and psychological tension",
     "aspectRatio": "1080x1528 (vertical page)",
-    "language": "Japanese vertical text dialogues inside manga speech bubbles"
+    "language": "Japanese vertical text dialogues inside manga speech bubbles, plus rectangular character nameplate boxes (初登場ネームプレート) on first appearance"
   },
   "characters": {
-    "魏延（文長）": "蜀漢の前軍師・征西大将軍。武勇天下に鳴り響くが、傲岸不遜で楊儀と激しく対立。大刀を振るう。",
-    "楊儀（威公）": "丞相長史。孔明の軍政を支えた優秀な文官だが、器量が狭く猜疑心が強い。",
-    "馬岱（伯瞻）": "平北将軍。馬超の従弟。沈着冷静な歴戦の猛将。孔明から魏延暗殺の密命を帯びる。",
-    "姜維（伯約）": "孔明の遺志を継ぎ、蜀軍の退却を支える若き智将。",
-    "蒋琬（公琰）": "成都の留守を預かる尚書令。穏健で深慮遠謀の士。孔明が筆頭後継者に指名した名宰相。"
+    "魏延（文長）": "蜀漢の前軍師・征西大将軍。初登場表記：『魏延（文長） 蜀漢・征西大将軍』",
+    "楊儀（威公）": "丞相長史。初登場表記：『楊儀（威公） 蜀漢・丞相長史』",
+    "馬岱（伯瞻）": "平北将軍。初登場表記：『馬岱（伯瞻） 蜀漢・平北将軍』",
+    "姜維（伯約）": "征西将軍。初登場表記：『姜維（伯約） 征西将軍』",
+    "蒋琬（公琰）": "尚書令・大将軍。初登場表記：『蒋琬（公琰） 蜀漢・大将軍・録尚書事』"
   },
   "pages": [
     {
@@ -30,24 +30,24 @@
       "title": "桟道炎上",
       "type": "4-panel",
       "status": "completed",
-      "scene": "4コマ構成。1右上：退却する蜀軍本隊の先回りをして山道を封鎖する魏延軍。2左上：兵士たちに松明を投げ込ませ、断崖絶壁の木製桟道を焼き払う【ゴオォォォッ！】。3右下：炎を見上げる蜀軍兵士たちの絶叫『桟道が燃えている！ 退路を断たれたぞ！』。4左下：馬上から炎を見下ろし獰猛に笑う魏延『楊儀め、貴様らの首をここで並べてくれるわ！』。下中央にページ番号2。",
-      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Wei Yan's vanguard vanguard soldiers rushing through narrow mountain passes ahead of the main army. Panel 2 (top-left): Soldiers hurling torches onto the narrow cliffside wooden gallery roads, massive flames roaring into the night sky with SFX 'ゴオォォォッ！'. Panel 3 (bottom-right): Retreating main Shu army soldiers looking up in utter terror: '桟道が燃えている！ 退路を断たれたぞ！'. Panel 4 (bottom-left): Wei Yan on his warhorse sneering coldly at the burning valley: '楊儀め、貴様らの首をここで並べてくれるわ！'. Page number 2 at bottom."
+      "scene": "4コマ構成。1右上：退却する蜀軍本隊の先回りをして山道を封鎖する魏延軍。2左上：兵士たちに松明を投げ込ませ、断崖絶壁の木製桟道を焼き払う【ゴオォォォッ！】。3右下：炎を見上げる蜀軍兵士たちの絶叫『桟道が燃えている！ 退路を断たれたぞ！』。4左下：馬上から炎を見下ろし獰猛に笑う魏延。ネームプレート『魏延（文長） 蜀漢・征西大将軍』、セリフ『楊儀め、貴様らの首をここで並べてくれるわ！』。下中央にページ番号2。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Wei Yan's vanguard soldiers rushing through narrow mountain passes ahead of the main army. Panel 2 (top-left): Soldiers hurling torches onto the narrow cliffside wooden gallery roads, massive flames roaring into the night sky with SFX 'ゴオォォォッ！'. Panel 3 (bottom-right): Retreating main Shu army soldiers looking up in utter terror: '桟道が燃えている！ 退路を断たれたぞ！'. Panel 4 (bottom-left): Wei Yan on his warhorse sneering coldly at the burning valley, with rectangular character nameplate box reading '魏延（文長） 蜀漢・征西大将軍' and speech bubble: '楊儀め、貴様らの首をここで並べてくれるわ！'. Page number 2 at bottom."
     },
     {
       "number": 3,
       "title": "楊儀の激怒と密書",
       "type": "4-panel",
       "status": "completed",
-      "scene": "4コマ構成。1右上：本隊の天幕で激怒し机を叩き割る楊儀『謀反人め！ 丞相の喪中に味方の退路を焼くとは万死に値する！』。2左上：姜維が冷静に進言『力攻めは禁物です。兵法二十四編の陣を張り、敵を誘い込みましょう』。3右下：楊儀が胸元から取り出す、孔明が生前残した封書。4左下：そこに記された孔明の文字『魏延が反乱を起こさば、馬岱にこの計を授けよ』。下中央にページ番号3。",
-      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Furious civil official Yang Yi slamming his desk in rage: '謀反人め！ 丞相の喪中に味方の退路を焼くとは万死に値する！'. Panel 2 (top-left): Calm young general Jiang Wei advising: '力攻めは禁物です。敵の勢いを挫き、誘い込みましょう'. Panel 3 (bottom-right): Yang Yi pulling out a sealed silk letter left behind by the late Zhuge Liang. Panel 4 (bottom-left): Close-up of Zhuge Liang's calligraphy text on the silk: '魏延反乱せば、馬岱にこの計を授けよ'. Page number 3 at bottom."
+      "scene": "4コマ構成。1右上：本隊の天幕で激怒し机を叩き割る楊儀。初登場ネームプレート『楊儀（威公） 蜀漢・丞相長史』、セリフ『謀反人め！ 丞相の喪中に味方の退路を焼くとは万死に値する！』。2左上：姜維が冷静に進言。ネームプレート『姜維（伯約） 征西将軍』、セリフ『力攻めは禁物です。兵法二十四編の陣を張り、敵を誘い込みましょう』。3右下：楊儀が胸元から取り出す、孔明が生前残した封書。4左下：そこに記された孔明の文字『魏延が反乱を起こさば、馬岱にこの計を授けよ』。下中央にページ番号3。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Panel 1 (top-right): Furious civil official Yang Yi slamming his desk in rage, with rectangular character nameplate box '楊儀（威公） 蜀漢・丞相長史' and speech bubble: '謀反人め！ 丞相の喪中に味方の退路を焼くとは万死に値する！'. Panel 2 (top-left): Calm young general Jiang Wei advising, with nameplate box '姜維（伯約） 征西将軍' and speech bubble: '力攻めは禁物です。敵の勢いを挫き、誘い込みましょう'. Panel 3 (bottom-right): Yang Yi pulling out a sealed silk letter left behind by the late Zhuge Liang. Panel 4 (bottom-left): Close-up of Zhuge Liang's calligraphy text on the silk: '魏延反乱せば、馬岱にこの計を授けよ'. Page number 3 at bottom."
     },
     {
       "number": 4,
       "title": "馬岱への密命",
       "type": "3-panel",
       "status": "completed",
-      "scene": "3コマ構成。1上段：深夜、密かに呼ばれた歴戦の猛将・馬岱。静かに拝礼する。2中段：楊儀と姜維が孔明の秘策を耳打ちする『魏延の陣に偽って投降し、奴が油断した瞬間を狙うのだ』。3下段：馬岱の鋭い眼光『心得ました。兄・馬超の名にかけて、必ずや逆賊を誅滅いたします』。下中央にページ番号4。",
-      "prompt": "Japanese seinen manga page, 3 dramatic panels. Top panel: Stoic veteran cavalry general Ma Dai (馬岱) kneeling silently in the shadow of the command tent. Middle panel: Yang Yi and Jiang Wei conferring the secret strategy to Ma Dai: '魏延の陣に偽って合流し、奴が油断した瞬間を討て'. Bottom panel: Ma Dai's resolute, lethal gaze as he grips his sword hilt: '心得ました。必ずや逆賊を誅滅いたします'. Page number 4 at bottom."
+      "scene": "3コマ構成。1上段：深夜、密かに呼ばれた歴戦の猛将・馬岱。静かに拝礼する。初登場ネームプレート『馬岱（伯瞻） 蜀漢・平北将軍』。2中段：楊儀と姜維が孔明の秘策を耳打ちする『魏延の陣に偽って投降し、奴が油断した瞬間を狙うのだ』。3下段：馬岱の鋭い眼光『心得ました。兄・馬超の名にかけて、必ずや逆賊を誅滅いたします』。下中央にページ番号4。",
+      "prompt": "Japanese seinen manga page, 3 dramatic panels. Top panel: Stoic veteran cavalry general Ma Dai (馬岱) kneeling silently in the shadow of the command tent, with rectangular character nameplate box '馬岱（伯瞻） 蜀漢・平北将軍'. Middle panel: Yang Yi and Jiang Wei conferring the secret strategy to Ma Dai: '魏延の陣に偽って合流し、奴が油断した瞬間を討て'. Bottom panel: Ma Dai's resolute, lethal gaze as he grips his sword hilt: '心得ました。必ずや逆賊を誅滅いたします'. Page number 4 at bottom."
     },
     {
       "number": 5,
@@ -77,9 +77,9 @@
       "number": 8,
       "title": "新体制の船出",
       "type": "4-panel",
-      "status": "pending_quota_reset",
-      "scene": "4コマ構成。1右上：成都の宮廷。大将軍・録尚書事に就任し深々と礼をする蒋琬。温厚かつ威厳ある宰相の横顔。2左上：前線で軍馬を鍛え直す姜維『丞相の兵法、我が命をかけて蜀を守り抜く』。3右下：内乱の危機を脱し、束の間の安定を取り戻した蜀漢の都・成都。4左下：ト書き『孔明の遺志は受け継がれ、蜀は再び歩み始めた。だが東の呉では、老いた孫権を巡る血塗られた後継争い「二宮事件」の嵐が吹き荒れようとしていた――』。次回：第三回「二宮事件・宮廷の血脈」へ続く。下中央にページ番号8。",
-      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Conclusion of Chapter 2. Panel 1 (top-right): In Chengdu palace, noble and wise statesman Jiang Wan (蒋琬) accepting the imperial commission as Prime Minister with solemn grace. Panel 2 (top-left): Jiang Wei on the northern border, watching his cavalry drill, eyes fixed on the distant northern horizon with quiet iron will. Panel 3 (bottom-right): Peaceful sunset over the mountain capital of Chengdu. Panel 4 (bottom-left): Foreboding concluding narration box: '内乱を乗り越えた蜀漢に訪れた束の間の平穏。だが東の呉では、老いた孫権を巡る血の粛清「二宮事件」が静かに幕を開けていた――'. Bottom text: '第二回 完 ／ 次回：第三回「二宮事件・宮廷の血脈」へ続く'. Page number 8 at bottom."
+      "status": "completed",
+      "scene": "4コマ構成。1右上：成都の宮廷。大将軍・録尚書事に就任し深々と礼をする蒋琬。初登場ネームプレート『蒋琬（公琰） 蜀漢・大将軍・録尚書事』、セリフ『丞相の遺志を継ぎ、謹んで国政をお預かりいたします』。2左上：前線で軍馬を鍛え直す姜維。ネームプレート『姜維（伯約） 征西将軍』、セリフ『丞相の兵法、我が命をかけて蜀を守り抜く』。3右下：内乱の危機を脱し、束の間の安定を取り戻した蜀漢の都・成都。4左下：ト書き『内乱を乗り越えた蜀漢に訪れた束の間の平穏。だが東の呉では、老いた孫権を巡る血塗られた後継争い「二宮事件」の嵐が吹き荒れようとしていた――』。次回：第三回「二宮事件・宮廷の血脈」へ続く。下中央にページ番号8。",
+      "prompt": "Japanese seinen manga page, 4 panels (2x2 grid). Conclusion of Chapter 2. Panel 1 (top-right): In Chengdu palace, noble and wise statesman Jiang Wan (蒋琬) accepting the imperial commission as Prime Minister with solemn grace, with rectangular character nameplate box '蒋琬（公琰） 蜀漢・大将軍・録尚書事' and speech bubble '丞相の遺志を継ぎ、謹んで国政をお預かりいたします'. Panel 2 (top-left): Jiang Wei on the northern border, watching his cavalry drill, with rectangular nameplate box '姜維（伯約） 征西将軍' and speech bubble '丞相の兵法、我が命をかけて蜀を守り抜く'. Panel 3 (bottom-right): Peaceful sunset over the mountain capital of Chengdu. Panel 4 (bottom-left): Foreboding concluding narration box: '内乱を乗り越えた蜀漢に訪れた束の間の平穏。だが東の呉では、老いた孫権を巡る血の粛清「二宮事件」が静かに幕を開けていた――'. Bottom text: '第二回 完 ／ 次回：第三回「二宮事件・宮廷の血脈」へ続く'. Page number 8 at bottom."
     }
   ]
 }
